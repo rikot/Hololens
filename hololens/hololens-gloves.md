@@ -68,3 +68,14 @@ A common example is black rubber gloves, which tend to absorb infrared light and
 - ANSELL Cut Resistant Gloves, Black,NeonGreen, Gray - **Almost Pass**
   - https://www.grainger.com/product/ANSELL-Cut-Resistant-Gloves-L-10-61UL17
   - Can still mostly navigate. Palm side works, but back of hand is spotty.
+
+## Waterproof, Chemical Resistant Gloves
+- SHOWR ChemRest 6784R, Black - **Pass / Fail**
+  - https://link_goes_here
+  - No tracking at all
+- BDG Deny 14" PVC Glove, Orange - **Pass / Fail**
+  - https://link_goes_here
+  - Hand position tracks, spotty articulation
+- HexArmor Ugly Mudder 7212, Yellow - **Pass / Fail**
+  - https://link_goes_here,
+  - Hand position tracks, no articulation
