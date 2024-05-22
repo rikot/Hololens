@@ -41,6 +41,12 @@ A common example is black rubber gloves, which tend to absorb infrared light and
 - Firm Grip General Purpose Synthetic Leather Glove, Gray / Gray - **Pass**
   - https://www.homedepot.com/p/FIRM-GRIP-General-Purpose-Large-Gray-Synthetic-Leather-Glove-3-Pack-63352-18/305583146
 
+## Cut Resistant Gloves - A1
+- Brass Knuckle BK401 - **Fail**
+  - https://www.brassknuckleprotection.com/products/BK401
+- FirmGrip Nitril Coated - **Pass**
+  - https://www.homedepot.com/p/FIRM-GRIP-Large-Nitrile-Coated-Work-Gloves-5-Pack-5558-032/205644545
+
 ## Cut Resistant Gloves - A3
  - Uline Diamond Flex Cut Resistant Gloves, Light Blue / Gray - **Pass**
   - https://www.uline.com/BL_3266/Uline-Dyneema-Diamond-Flex-Cut-Resistant-Gloves
@@ -70,12 +76,14 @@ A common example is black rubber gloves, which tend to absorb infrared light and
   - Can still mostly navigate. Palm side works, but back of hand is spotty.
 
 ## Waterproof, Chemical Resistant Gloves
-- SHOWR ChemRest 6784R, Black - **Pass / Fail**
+- SHOWR ChemRest 6784R, Black - **Fail**
   - https://link_goes_here
   - No tracking at all
-- BDG Deny 14" PVC Glove, Orange - **Pass / Fail**
+- BDG Deny 14" PVC Glove, Orange - **Fail**
   - https://link_goes_here
   - Hand position tracks, spotty articulation
-- HexArmor Ugly Mudder 7212, Yellow - **Pass / Fail**
+- HexArmor Ugly Mudder 7212, Yellow - **Fail**
   - https://link_goes_here,
   - Hand position tracks, no articulation
+- QEP Multi-Purpose Gloves - **Pass**
+  - Worked great!
