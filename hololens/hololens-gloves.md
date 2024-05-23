@@ -71,7 +71,7 @@ Intro description about these gloves. Also summarize the tracking issues expeire
 | ---------------- | ---------------- | ---------------- | ---------------- |
 | ![](images/gloves/CutResistantA3_BlueGray.jpg) | ![](images/gloves/CutResistantA3_GrayBlack.jpg) | ![](images/gloves/CutResistantA3_GrayOrange.jpg)             | ![](images/gloves/CutResistantA3_GrayGray.jpg)            |
 | Material          | Material          | Material          | Material          |
-| ✅ **Pass**      | ❌ **Fail**       | ✅ **Pass**       | ✅ **Pass**     |
+| ✅ **Pass**      | ❌ **Fail**       | ✅ **Pass**       | ✅ **Pass** (Almost)    |
 
  #### Links
   - https://www.uline.com/BL_3266/Uline-Dyneema-Diamond-Flex-Cut-Resistant-Gloves
@@ -81,31 +81,46 @@ Intro description about these gloves. Also summarize the tracking issues expeire
 
 
 ### Cut Resistant Gloves - A4
-- Uline Durarmor Elite, Blue / Black - **Fail**
+Intro description about these gloves. Also summarize the tracking issues expeirenced and recommendation in this category.
+
+| Blue / Black   | White / White     | Gray / Gray     | White / Gray      |
+| ---------------- | ---------------- | ---------------- | ---------------- |
+| ![](images/gloves/CutResistantA4_BlueBlack.jpg) | ![](images/gloves/CutResistantA4_WhiteWhite.jpg) | ![](images/gloves/CutResistantA4_GrayGray.jpg)             | ![](images/gloves/CutResistantA4_WhiteGray.jpg)            |
+| Material          | Material          | Material          | Material          |
+| ❌ **Fail**       | ✅ **Pass**       | ✅ **Pass**     | ✅ **Pass**     |
+
+#### Links
   - https://www.uline.com/BL_2689/Uline-Durarmor-Elite-Elite-Plus-Cut-Resistant-Gloves
-- MCR SAFETY Coated Gloves, White / White - **Pass**
   - https://www.grainger.com/product/MCR-SAFETY-Coated-Gloves-L-9-49JY75
-- SHOWA Uncoated, Gray - **Pass**
   - https://www.grainger.com/product/SHOWA-Cut-Resistant-Glove-L-8-54ZU54
-- Tenactiv, White / Gray - **Pass**
   - https://www.grainger.com/product/SUPERIOR-GLOVE-Knit-Gloves-L-9-55NC54
 
+
 ### Cut Resistant Gloves - A5
-- HyFLEX Coated Gloves, Gray / Gray - **Pass**
+Intro description about these gloves. Also summarize the tracking issues expeirenced and recommendation in this category. Green one  still mostly navigate. Palm side works, but back of hand is spotty.
+
+
+| Gray / Gray   | Black / Green / Gray     |
+| ---------------- | ---------------- |
+| ![](images/gloves/CutResistantA5_GrayGray.jpg) | ![](images/gloves/CutResistantA5_BlackGreenGray.jpg) |
+| Material         | Material         |
+| ✅ **Pass**     | ❌ **Fail** (Almost Pass)     | 
+
+#### Links
   - https://www.grainger.com/product/HYFLEX-Knit-Gloves-L-9-61DD67
-- ANSELL Cut Resistant Gloves, Black,NeonGreen, Gray - **Almost Pass**
   - https://www.grainger.com/product/ANSELL-Cut-Resistant-Gloves-L-10-61UL17
-  - Can still mostly navigate. Palm side works, but back of hand is spotty.
 
 ### Waterproof, Chemical Resistant Gloves
-- SHOWR ChemRest 6784R, Black - **Fail**
+Intro description about these gloves. Also summarize the tracking issues expeirenced and recommendation in this category.
+
+| Black   | Orange Impact    | Yellow     | Orange      |
+| ---------------- | ---------------- | ---------------- | ---------------- |
+| ![](images/gloves/ChemicalResistant_Black.jpg) | ![](images/gloves/ChemicalResistant_OrangeImpact.jpg) | ![](images/gloves/ChemicalResistant_Yellow.jpg)             | ![](images/gloves/ChemicalResistant_Orange.jpg)            |
+| Material          | Material          | Material          | Material          |
+| ❌ **Fail**       | ❌ **Fail**       | ❌ **Fail**     | ✅ **Pass**     |
+
+#### Links
   - https://link_goes_here
-  - No tracking at all
-- BDG Deny 14" PVC Glove, Orange - **Fail**
   - https://link_goes_here
-  - Hand position tracks, spotty articulation
-- HexArmor Ugly Mudder 7212, Yellow - **Fail**
-  - https://link_goes_here,
-  - Hand position tracks, no articulation
-- QEP Multi-Purpose Gloves - **Pass**
-  - Worked great!
+  - https://link_goes_here
+  - https://link_goes_here
