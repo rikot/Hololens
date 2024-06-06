@@ -31,7 +31,7 @@ In between our feature updates, we also release fixes and improvements and secur
 
 To help provide clarity, this release notes page provides information for every major and minor update. The most current release is listed first, and previous releases follow in chronological order. If you’d like to learn about updates to down level versions (or view previous major feature releases), refer to the table that follows.
 
-Note:  the current release version is the May 2024 Update, Build 1376.
+Note:  the current release version is the June 2024 Update, Build XXXX.
 
 | Major release   number | Feature release name                  | Date         | Build number |
 |------------------------|-------------------------------------|--------------|--------------|
@@ -60,6 +60,15 @@ To explicitly check for updates, launch the Settings app and select **Update & S
 
 > [!TIP]
 > Searching for a feature but didn't find it on this page? Try checking out of the previous feature release pages. You can navigate there using the links provided, or the table of contents.
+
+## Windows Holographic, version 24H1 - June 2024 Update
+
+- Build 22621.12XX
+
+Improvements and fixes in the update:
+
+- Fixed a keyboard issue blocking Chinese typing with Microsoft PinYin IME.
+- Minimized the occurrence of unplanned activations of the system voice command ‘what is my IP’.
 
 ## Windows Holographic, version 24H1 - May 2024 Update
 
