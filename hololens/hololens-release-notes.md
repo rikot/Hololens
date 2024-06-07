@@ -31,7 +31,7 @@ In between our feature updates, we also release fixes and improvements and secur
 
 To help provide clarity, this release notes page provides information for every major and minor update. The most current release is listed first, and previous releases follow in chronological order. If you’d like to learn about updates to down level versions (or view previous major feature releases), refer to the table that follows.
 
-Note:  the current release version is the June 2024 Update, Build XXXX.
+Note:  the current release version is the June 2024 Update, Build 1383.
 
 | Major release   number | Feature release name                  | Date         | Build number |
 |------------------------|-------------------------------------|--------------|--------------|
@@ -63,7 +63,7 @@ To explicitly check for updates, launch the Settings app and select **Update & S
 
 ## Windows Holographic, version 24H1 - June 2024 Update
 
-- Build 22621.12XX
+- Build 22621.1383
 
 Improvements and fixes in the update:
 
