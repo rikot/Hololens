@@ -69,6 +69,7 @@ Improvements and fixes in the update:
 
 - Fixed a keyboard issue blocking Chinese typing with Microsoft PinYin IME.
 - Minimized the occurrence of unplanned activations of the system voice command ‘what is my IP’.
+- Fixed an issue where eye tracking calibration is not be displayed for new user sign-in even if allowed by policy.
 
 ## Windows Holographic, version 24H1 - May 2024 Update
 
