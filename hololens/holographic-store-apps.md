@@ -166,17 +166,13 @@ As of [21H2](hololens-release-notes.md#windows-holographic-version-21h1), IT adm
 
 ## Uninstall apps
 
-There are three ways to uninstall applications. You can uninstall applications through the Microsoft Store, Start menu or from Settings.
+There are two ways to uninstall applications. You can uninstall applications through the Start menu or from Settings.
 
 > [!WARNING]
-> You cannot uninstall a system app or the Microsoft Store itself.
+> You cannot uninstall a system app or the Microsoft Store.
 
 > [!IMPORTANT]
 > If your HoloLens 2 has multiple users, you must be logged in as the user who installed the app to uninstall it.
-
-### Uninstall from the Microsoft Store
-
-Open the Microsoft Store from the **Start** menu, and then browse for the application you want to uninstall.  On the Store page, each installed application has an **Uninstall** button.
 
 ### Uninstall from the Start menu
 
