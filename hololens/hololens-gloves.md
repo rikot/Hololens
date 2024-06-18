@@ -47,7 +47,7 @@ These are your standard general-purpose utility gloves, typically with light pad
 
 | Yellow / Black   | Red / Black     | Gray / Black      | Gray / Gray      |
 | ---------------- | ---------------- | ---------------- | ---------------- |
-| ![Yellow Utility Gloves](images/gloves/UtilityGlove_YellowBlack.jpg) | ![Red Utility Gloves](images/gloves/UtilityGlove_RedBlack.jpg) | ![Gray Utility Gloves](images/gloves/UtilityGlove_GrayBlack.jpg)             | ![Gray Utility Gloves](images/gloves/UtilityGlove_GrayGray.jpg)            |
+| ![Yellow Utility Gloves](images/gloves/UtilityGlove_YellowBlack.jpg) | ![Red Utility Gloves](images/gloves/UtilityGlove_RedBlack.jpg) | ![Gray/Black Utility Gloves](images/gloves/UtilityGlove_GrayBlack.jpg)             | ![Gray Utility Gloves](images/gloves/UtilityGlove_GrayGray.jpg)            |
 | Synthetic Leather | Synthetic Leather | Synthetic Leather | Synthetic Leather|
 | ❌ **Fail**      | ❌ **Fail**       | ❌ **Fail**       | ✅ **Pass**     |
 
@@ -77,7 +77,7 @@ These are thin, form-fitting utility gloves that provide grip, and a medium leve
 | ---------------- | ---------------- | ---------------- | ---------------- |
 | ![Blue/Gray A3 Cut Resistant Gloves](images/gloves/CutResistantA3_BlueGray.jpg) | ![Gray/Black A3 Cut Resistant Gloves](images/gloves/CutResistantA3_GrayBlack.jpg) | ![Gray/Orange A3 Cut Resistant Gloves](images/gloves/CutResistantA3_GrayOrange.jpg)             | ![Gray A3 Cut Resistant Gloves](images/gloves/CutResistantA3_GrayGray.jpg)            |
 | Polyurethane / Nylon | Nitrile / HPPE | Nitrile / HPPE | Polyurethane / HPPE          |
-| ✅ **Pass**      | ❌ **Fail**       | ✅ **Pass**       | ✅ **Pass** (Almost)    |
+| ✅ **Pass**      | ❌ **Fail**       | ✅ **Pass**       | ✅ **Pass** |
 
  #### Links
   - https://www.uline.com/BL_3266/Uline-Dyneema-Diamond-Flex-Cut-Resistant-Gloves
