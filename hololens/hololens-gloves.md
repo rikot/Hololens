@@ -18,7 +18,7 @@ If your need to wear gloves for your job, you may have found that some types of 
 ## Challenges with Gloves
 There are two main challenges when it comes to gloves on HoloLens 2 - infrared light absorption and bagginess. Read on to learn more.
 
-### Infrared Light Absorbption
+### Infrared Light Absorption
 Hand tracking relies on a depth camera, which functions by projecting IR light into the scene and timing the reflectance back to the camera. Certain types of glove materials absorb the projected infrared light and therefore don't appear in the depth image, making your hands invisible and not trackable. We find that dark rubbery materials tend to exhibit this problem, and should be avoided. In general, we recommend using gloves that are mid-tone colors or brighter for best results.
 
 Please note that IR light absorption is a challenge that only applies to users wearing gloves. For users interacting without gloves, HoloLens 2 was designed and certified to support everyone with optimal tracking results, regardless of skin tone.
@@ -30,7 +30,7 @@ Hand tracking operates by finding objects in the scene that look like hands. The
 To illustrate how different types of gloves perform with hand tracking, we have tested a selection of gloves and included the results below. Please note that these results are for informational purposes only, and not a guarantee of performance. Use these examples to guide your search for your own specific use case, and test thoroughly before deploying.
 
 ### Nitrile Disposable Gloves
-These are thin and tight-fitting gloves, typically made of nitril or latex, and disposed after each use. We tested several colors, and found that all colors worked well except for black.
+These are thin and tight-fitting gloves, typically made of nitrile or latex, and disposed after each use. We tested several colors, and found that all colors worked well except for black.
 
 | White            | Purple           | Blue             | Black            |
 | ---------------- | ---------------- | ---------------- | ---------------- |
@@ -42,8 +42,8 @@ These are thin and tight-fitting gloves, typically made of nitril or latex, and 
  - https://www.amazon.com/Nitrile-Disposable-Gloves-Large-Powder
 
 
-### General Purpouse / Utility Gloves
-These are your standard general-purpose utility gloves, typically with light padding and made of leather or synthetic leather materials. We tested several colors, and found that gloves with large stretches of black material experienced tracking drops on that side of the hand.
+### General Purpose / Utility Gloves
+These are your standard general-purpose utility gloves, typically with light padding, and made of leather or synthetic leather materials. We tested several colors, and found that gloves with large stretches of black material experienced tracking drops on that side of the hand.
 
 | Yellow / Black   | Red / Black     | Gray / Black      | Gray / Gray      |
 | ---------------- | ---------------- | ---------------- | ---------------- |
@@ -57,12 +57,12 @@ These are your standard general-purpose utility gloves, typically with light pad
 
 
 ### Cut Resistant Gloves - A1
-These are thin, form-fitting utility gloves that provide grip and a low level of cut protection. They utilize a dipped rubber coating on the palm side, and a flexible material on the back. We found that the black Nylon material caused tracking problems for that side of the hand.
+These are thin, form-fitting utility gloves that provide grip, and a low level of cut protection. They utilize a dipped rubber coating on the palm side, and a flexible material on the back. We found that the black Nylon material caused tracking problems for that side of the hand.
 
 | Black / Gray   | Orange / White     |
 | ---------------- | ---------------- |
-| ![Black/Gray Cut Resistant Gloves](images/gloves/CutResistantA1_BlackGray.jpg) | ![Orange/White Cut Resistant Gloves](images/gloves/CutResistantA1_WhiteOrange.jpg) |
-| Polyurethane / Nylon | Nitril / Polyester |
+| ![Black/Gray A1 Cut Resistant Gloves](images/gloves/CutResistantA1_BlackGray.jpg) | ![Orange/White A1 Cut Resistant Gloves](images/gloves/CutResistantA1_WhiteOrange.jpg) |
+| Polyurethane / Nylon | Nitrile / Polyester |
 | ❌ **Fail**      | ✅ **Pass**     |
 
 #### Links
@@ -71,11 +71,11 @@ These are thin, form-fitting utility gloves that provide grip and a low level of
 
 
 ### Cut Resistant Gloves - A3
-These are thin, form-fitting utility gloves that provide grip and a medium level of cut resistance. They utilize a dipped rubber coating on the palm side, and a flexible material on the back. In this set, we found that only the pair with black nitrile material exhibited tracking problems.
+These are thin, form-fitting utility gloves that provide grip, and a medium level of cut resistance. They utilize a dipped rubber coating on the palm side, and a flexible material on the back. In this set, we found that only the pair with black nitrile material exhibited tracking problems.
 
 | Light Blue / Gray   | Gray / Black     | Light Gray / Orange      | Gray / Gray      |
 | ---------------- | ---------------- | ---------------- | ---------------- |
-| ![Blue/Gray Cut Resistant Gloves](images/gloves/CutResistantA3_BlueGray.jpg) | ![Gray/Black Cut Resistant Gloves](images/gloves/CutResistantA3_GrayBlack.jpg) | ![Gray/Orange Cut Resistant Gloves](images/gloves/CutResistantA3_GrayOrange.jpg)             | ![Gray Cut Resistant Gloves](images/gloves/CutResistantA3_GrayGray.jpg)            |
+| ![Blue/Gray A3 Cut Resistant Gloves](images/gloves/CutResistantA3_BlueGray.jpg) | ![Gray/Black A3 Cut Resistant Gloves](images/gloves/CutResistantA3_GrayBlack.jpg) | ![Gray/Orange A3 Cut Resistant Gloves](images/gloves/CutResistantA3_GrayOrange.jpg)             | ![Gray A3 Cut Resistant Gloves](images/gloves/CutResistantA3_GrayGray.jpg)            |
 | Polyurethane / Nylon | Nitrile / HPPE | Nitrile / HPPE | Polyurethane / HPPE          |
 | ✅ **Pass**      | ❌ **Fail**       | ✅ **Pass**       | ✅ **Pass** (Almost)    |
 
@@ -91,7 +91,7 @@ These are thin, form-fitting utility gloves that provide grip and higher level o
 
 | Blue / Black   | White / White     | Gray / Gray     | White / Gray      |
 | ---------------- | ---------------- | ---------------- | ---------------- |
-| ![Blue/Black Cut Resistant Gloves](images/gloves/CutResistantA4_BlueBlack.jpg) | ![White Cut Resistant Gloves](images/gloves/CutResistantA4_WhiteWhite.jpg) | ![Gray Cut Resistant Gloves](images/gloves/CutResistantA4_GrayGray.jpg)             | ![White/Gray Cut Resistant Gloves](images/gloves/CutResistantA4_WhiteGray.jpg)            |
+| ![Blue/Black A4 Cut Resistant Gloves](images/gloves/CutResistantA4_BlueBlack.jpg) | ![White A4 Cut Resistant Gloves](images/gloves/CutResistantA4_WhiteWhite.jpg) | ![Gray A4 Cut Resistant Gloves](images/gloves/CutResistantA4_GrayGray.jpg)             | ![White/Gray A4 Cut Resistant Gloves](images/gloves/CutResistantA4_WhiteGray.jpg)            |
 | Nitrile / HPPE | Polyurethane / HPPE | HPPE | Polyurethane / TenActiv |
 | ❌ **Fail**       | ✅ **Pass**       | ✅ **Pass**     | ✅ **Pass**     |
 
@@ -103,11 +103,11 @@ These are thin, form-fitting utility gloves that provide grip and higher level o
 
 
 ### Cut Resistant Gloves - A5
-These gloves provide a very high level of cut resistance. We tested a typical pair with a dipped rubber coating on the palm side, and another with more advanced impact protection on the back. Unfortunately we found that this extra bulk lead to tracking issues for that glove.
+These gloves provide a very high level of cut resistance. We tested a typical pair with a dipped rubber coating on the palm side, and another with more advanced impact protection on the back. Unfortunately we found that this extra bulk leads to tracking issues for that glove.
 
 | Gray / Gray   | Black / Green / Gray     |
 | ---------------- | ---------------- |
-| ![Gray Cut Resistant Gloves](images/gloves/CutResistantA5_GrayGray.jpg) | ![Black/Green/Gray Cut Resistant Gloves](images/gloves/CutResistantA5_BlackGreenGray.jpg) |
+| ![Gray A5 Cut Resistant Gloves](images/gloves/CutResistantA5_GrayGray.jpg) | ![Black/Green/Gray A5 Cut Resistant Gloves](images/gloves/CutResistantA5_BlackGreenGray.jpg) |
 | Polyurethane / Intercept         | TPR (Impact Resistant) / HPPE |
 | ✅ **Pass**     | ❌ **Fail**      | 
 
@@ -116,7 +116,7 @@ These gloves provide a very high level of cut resistance. We tested a typical pa
   - https://www.grainger.com/product/ANSELL-Cut-Resistant-Gloves-L-10-61UL17
 
 ### Waterproof, Chemical Resistant Gloves
-These gloves are typically on the bulkier side and provide waterproof, chemical resistant protection for various use case. The increased bagginess creates a more challenging tracking scenario, and we found that only the orange gloves tracked well on HoloLens 2. 
+These gloves are typically on the bulkier side and provide waterproof, chemical resistant protection for various use cases. The increased bagginess creates a more challenging tracking scenario, and we found that only the orange gloves tracked well on HoloLens 2. 
 
 | Black   | Orange Impact    | Yellow     | Orange      |
 | ---------------- | ---------------- | ---------------- | ---------------- |
