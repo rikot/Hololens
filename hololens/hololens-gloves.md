@@ -34,7 +34,7 @@ These are thin and tight-fitting gloves, typically made of nitril or latex, and 
 
 | White            | Purple           | Blue             | Black            |
 | ---------------- | ---------------- | ---------------- | ---------------- |
-| ![](images/gloves/NitrileDisposable_White.jpg) | ![](images/gloves/NitrileDisposable_Purple.jpg) | ![](images/gloves/NitrileDisposable_Blue.jpg)             | ![](images/gloves/NitrileDisposable_Black.jpg)            |
+| ![White Disposable Gloves](images/gloves/NitrileDisposable_White.jpg) | ![Purple Disposable Gloves](images/gloves/NitrileDisposable_Purple.jpg) | ![Blue Disposable Gloves](images/gloves/NitrileDisposable_Blue.jpg)             | ![Black Disposable Gloves](images/gloves/NitrileDisposable_Black.jpg)            |
 | Nitrile          | Nitrile          | Nitrile          | Nitrile          |
 | ✅**Pass**      | ✅**Pass**       | ✅ **Pass**      | ❌ **Fail**     |
 
@@ -45,9 +45,9 @@ These are thin and tight-fitting gloves, typically made of nitril or latex, and 
 ### General Purpouse / Utility Gloves
 These are your standard general-purpose utility gloves, typically with light padding and made of leather or synthetic leather materials. We tested several colors, and found that gloves with large stretches of black material experienced tracking drops on that side of the hand.
 
-| Yellow / Black   | Gray / Black     | Red / Black      | Gray / Gray      |
+| Yellow / Black   | Red / Black     | Gray / Black      | Gray / Gray      |
 | ---------------- | ---------------- | ---------------- | ---------------- |
-| ![](images/gloves/UtilityGlove_YellowBlack.jpg) | ![](images/gloves/UtilityGlove_RedBlack.jpg) | ![](images/gloves/UtilityGlove_GrayBlack.jpg)             | ![](images/gloves/UtilityGlove_GrayGray.jpg)            |
+| ![Yellow Utility Gloves](images/gloves/UtilityGlove_YellowBlack.jpg) | ![Red Utility Gloves](images/gloves/UtilityGlove_RedBlack.jpg) | ![Gray Utility Gloves](images/gloves/UtilityGlove_GrayBlack.jpg)             | ![Gray Utility Gloves](images/gloves/UtilityGlove_GrayGray.jpg)            |
 | Synthetic Leather | Synthetic Leather | Synthetic Leather | Synthetic Leather|
 | ❌ **Fail**      | ❌ **Fail**       | ❌ **Fail**       | ✅ **Pass**     |
 
@@ -61,7 +61,7 @@ These are thin, form-fitting utility gloves that provide grip and a low level of
 
 | Black / Gray   | Orange / White     |
 | ---------------- | ---------------- |
-| ![](images/gloves/CutResistantA1_BlackGray.jpg) | ![](images/gloves/CutResistantA1_WhiteOrange.jpg) |
+| ![Black/Gray Cut Resistant Gloves](images/gloves/CutResistantA1_BlackGray.jpg) | ![Orange/White Cut Resistant Gloves](images/gloves/CutResistantA1_WhiteOrange.jpg) |
 | Polyurethane / Nylon | Nitril / Polyester |
 | ❌ **Fail**      | ✅ **Pass**     |
 
@@ -75,7 +75,7 @@ These are thin, form-fitting utility gloves that provide grip and a medium level
 
 | Light Blue / Gray   | Gray / Black     | Light Gray / Orange      | Gray / Gray      |
 | ---------------- | ---------------- | ---------------- | ---------------- |
-| ![](images/gloves/CutResistantA3_BlueGray.jpg) | ![](images/gloves/CutResistantA3_GrayBlack.jpg) | ![](images/gloves/CutResistantA3_GrayOrange.jpg)             | ![](images/gloves/CutResistantA3_GrayGray.jpg)            |
+| ![Blue/Gray Cut Resistant Gloves](images/gloves/CutResistantA3_BlueGray.jpg) | ![Gray/Black Cut Resistant Gloves](images/gloves/CutResistantA3_GrayBlack.jpg) | ![Gray/Orange Cut Resistant Gloves](images/gloves/CutResistantA3_GrayOrange.jpg)             | ![Gray Cut Resistant Gloves](images/gloves/CutResistantA3_GrayGray.jpg)            |
 | Polyurethane / Nylon | Nitrile / HPPE | Nitrile / HPPE | Polyurethane / HPPE          |
 | ✅ **Pass**      | ❌ **Fail**       | ✅ **Pass**       | ✅ **Pass** (Almost)    |
 
@@ -91,7 +91,7 @@ These are thin, form-fitting utility gloves that provide grip and higher level o
 
 | Blue / Black   | White / White     | Gray / Gray     | White / Gray      |
 | ---------------- | ---------------- | ---------------- | ---------------- |
-| ![](images/gloves/CutResistantA4_BlueBlack.jpg) | ![](images/gloves/CutResistantA4_WhiteWhite.jpg) | ![](images/gloves/CutResistantA4_GrayGray.jpg)             | ![](images/gloves/CutResistantA4_WhiteGray.jpg)            |
+| ![Blue/Black Cut Resistant Gloves](images/gloves/CutResistantA4_BlueBlack.jpg) | ![White Cut Resistant Gloves](images/gloves/CutResistantA4_WhiteWhite.jpg) | ![Gray Cut Resistant Gloves](images/gloves/CutResistantA4_GrayGray.jpg)             | ![White/Gray Cut Resistant Gloves](images/gloves/CutResistantA4_WhiteGray.jpg)            |
 | Nitrile / HPPE | Polyurethane / HPPE | HPPE | Polyurethane / TenActiv |
 | ❌ **Fail**       | ✅ **Pass**       | ✅ **Pass**     | ✅ **Pass**     |
 
@@ -107,7 +107,7 @@ These gloves provide a very high level of cut resistance. We tested a typical pa
 
 | Gray / Gray   | Black / Green / Gray     |
 | ---------------- | ---------------- |
-| ![](images/gloves/CutResistantA5_GrayGray.jpg) | ![](images/gloves/CutResistantA5_BlackGreenGray.jpg) |
+| ![Gray Cut Resistant Gloves](images/gloves/CutResistantA5_GrayGray.jpg) | ![Black/Green/Gray Cut Resistant Gloves](images/gloves/CutResistantA5_BlackGreenGray.jpg) |
 | Polyurethane / Intercept         | TPR (Impact Resistant) / HPPE |
 | ✅ **Pass**     | ❌ **Fail**      | 
 
@@ -120,7 +120,7 @@ These gloves are typically on the bulkier side and provide waterproof, chemical 
 
 | Black   | Orange Impact    | Yellow     | Orange      |
 | ---------------- | ---------------- | ---------------- | ---------------- |
-| ![](images/gloves/ChemicalResistant_Black.jpg) | ![](images/gloves/ChemicalResistant_OrangeImpact.jpg) | ![](images/gloves/ChemicalResistant_Yellow.jpg)             | ![](images/gloves/ChemicalResistant_Orange.jpg)            |
+| ![Black Chemical Resistant Gloves](images/gloves/ChemicalResistant_Black.jpg) | ![Orange Impact Chemical Resistant Gloves](images/gloves/ChemicalResistant_OrangeImpact.jpg) | ![Yellow Chemical Resistant Gloves](images/gloves/ChemicalResistant_Yellow.jpg)             | ![Orange Chemical Resistant Gloves](images/gloves/ChemicalResistant_Orange.jpg)            |
 | Neoprene          | PVC          | PVC-Nitrile           | Latex            |
 | ❌ **Fail**       | ❌ **Fail**       | ❌ **Fail**     | ✅ **Pass**     |
 
