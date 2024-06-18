@@ -6,7 +6,7 @@ ms.date: 2/2/2023
 keywords: hololens
 ms.service: hololens
 ms.sitesec: library
-ms.topic: article
+ms.topic: overview
 ms.localizationpriority: high
 appliesto:
 - HoloLens 2

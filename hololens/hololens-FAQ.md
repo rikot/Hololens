@@ -57,7 +57,7 @@ If your HoloLens can't identify and load the space you're in automatically, chec
 
 - Make sure that you're connected to Wi-Fi
 - Make sure that there's plenty of light in the room
-- Make sure that there haven't been any major changes to the surroundings.
+- Make sure that there are no major changes to the surroundings.
 
 You can manage your spaces by going to **Settings** > **System** > **Holograms**. 
 
@@ -76,9 +76,9 @@ If your holograms don't look right (for example, they're jittery or shaky, or yo
 - [Clean your device visor](hololens1-hardware.md#care-and-cleaning) and make sure nothing is blocking the sensors.
 - Make sure that you're in a well-lit room that does not have a lot of direct sunlight.
 - Try walking around and gazing at your surroundings so that HoloLens can scan them more completely.
-- If you've placed a lot of holograms, try removing some.
+- If there are a lot of holograms, try removing some.
 
-If you're still having problems, try running the Calibration app. This app calibrates your HoloLens just for you to help keep your holograms looking their best. To do that, go to **Settings** > **System** > **Utilities**. Under **Calibration**, select **Open Calibration**.
+If you're still having problems, try running the Calibration app. This app calibrates your HoloLens just for you to help keep your holograms looking their best. To do that, go to **Settings** > **System**. Under **Calibration**, select **Run eye calibration**.
 
 [Back to list](#list)
 
@@ -92,7 +92,7 @@ If you see these messages often, try one or more of the following fixes:
 
 - Make sure that you're in a well-lit room that does not have a lot of direct sunlight.
 - Make sure that your device visor is clean. [Learn how to clean your visor](hololens1-hardware.md#care-and-cleaning).
-- Make sure that you have a strong Wi-Fi signal. If you enter a new environment that has no Wi-Fi or a weak Wi-Fi signal, HoloLens won't be able find your space. Check your Wi-Fi connection by going to **Settings** > **Network &amp; Internet** > **Wi-Fi**.
+- Make sure that you have a strong Wi-Fi signal. If you enter a new environment that has no Wi-Fi or a weak Wi-Fi signal, HoloLens can't find your space. Check your Wi-Fi connection by going to **Settings** > **Network &amp; Internet** > **Wi-Fi**.
 - Try moving more slowly.
 
 [Back to list](#list)
@@ -111,22 +111,20 @@ If you don't see the holograms that you placed, or if you're seeing some that yo
 
 ## Can't place holograms or see previously placed holograms
 
-If HoloLens can't map or load your space, it enters Limited mode. When that happens, you can't place holograms or see holograms that you've placed. Here are some things to try:
+If HoloLens can't map or load your space, it enters Limited mode. When that happens, you can't place holograms or see holograms that were placed previously. Here are some things to try:
 
 - Make sure that there's enough light in your environment so HoloLens can see and map the space.
 - Stand between one and 3 meters from where you're trying to place the hologram.
 - Don't place holograms on black or reflective surfaces.
 - Make sure that you're connected to a Wi-Fi network. If you're not connected to Wi-Fi, HoloLens can't identify and load a known space.
-- Walk around the rooms so HoloLens can rescan your surroundings. To see what's already been scanned, air tap to reveal the mapping mesh graphic.
+- Walk around the rooms so HoloLens can rescan your surroundings. To see what was already scanned, air tap to reveal the mapping mesh graphic.
 - If you need to create a new space, connect to Wi-Fi, then restart your HoloLens.
-- To see if the correct space is active, or to manually load a space, go to **Settings** > **System** > **Spaces**.
-- If the correct space is loaded and you're still having problems, the space may be corrupt. To fix this issue, select the space, then select **Remove**. After you remove the space, HoloLens starts to map your surroundings and create a new space.
 
 [Back to list](#list)
 
 ## Holograms disappear or are encased in other holograms or objects
 
-If you get too close to a hologram, it will temporarily disappear&mdash;to restore the hologram, just move away from it. Also, if you've placed several holograms close together, some may disappear. Try removing a few.
+If you get too close to a hologram, it temporarily disappears&mdash;to restore the hologram, just move away from it. Also, if several holograms are placed close together, some may disappear. Try removing a few.
 
 Holograms can also be blocked or encased by other holograms or by objects such as walls. If that happens, try one of the following fixes:
 
@@ -138,7 +136,7 @@ Holograms can also be blocked or encased by other holograms or by objects such a
 
 ## Holograms are appearing on the other side of a wall
 
-If you're very close to a wall, or if HoloLens hasn't scanned the wall yet, you can see holograms that are in the next room. To scan the wall, stand between one and 3 meters from the wall and gaze at it.
+If you're very close to a wall, or if the wall wasn't scanned HoloLens yet, you can see holograms that are in the next room. To scan the wall, stand between one and 3 meters from the wall and gaze at it.
 
 A black or reflective object (for example, a black couch or a stainless steel refrigerator) near the wall may cause problems when HoloLens tries to scan the wall. If there is such an object, scan the other side of the wall.
 
@@ -150,7 +148,7 @@ A hologram that you place on a wall typically appears to be an inch or so away f
 
 - When you place a hologram on a wall, stand between one and 3 meters from the wall and face the wall straight on.
 - Air tap the wall to reveal the mapping mesh graphic. Make sure that the mesh aligns with the wall. If it doesn't, remove the hologram, rescan the wall, and then try again.
-- If the issue persists, run the Calibration app. You find it in **Settings** > **System** > **Utilities**.
+- If the issue persists, run the Calibration app. You find it in **Settings** > **System**.
 
 [Back to list](#list)
 
@@ -167,8 +165,8 @@ Try walking around and looking at the area where you're placing the app so that 
 1. Get the latest hologram scale and stability fixes by updating to the latest [Windows Holographic OS, (20H2 or higher)](hololens-release-notes-2004.md#windows-holographic-version-20h2). After updating perform the following:
     1. Remove all Holograms via **Settings** app -> **System** -> **Holograms** -> then select **Remove all holograms** and start with a fresh map.
     1. Create a new map of your space by wearing the HoloLens and walking around your room and looking at all areas and surfaces in the space. Do that for 2-3 minutes.
-    1. Perform IPD calibration. Go to **Settings** > **System** > **Utilities**. Under **Calibration**, select **Open Calibration**.
+    1. Perform IPD calibration. Go to **Settings** > **System**. Under **Calibration**, select **Run eye calibration**.
     1. Retest the scenario and see if it still persists.
-1. If updating does not fix the issue, file a [Feedback Hub issue](hololens-feedback.md). After you've filled feedback you can use the **Share** button, to create an easy to share link that can be sent when contacting support.
+1. If updating does not fix the issue, file a [Feedback Hub issue](hololens-feedback.md). After feedback is filed,  you can use the **Share** button, to create an easy to share link that can be sent when contacting support.
 
 [Back to list](#list)

@@ -4,7 +4,7 @@ description: Learn the regular maintenance tasks for HoloLens devices.
 ms.service: hololens
 ms.sitesec: library
 ms.reviewer: lavinds
-ms.topic: article
+ms.topic: how-to
 audience: ITPro
 ms.date: 12/13/2022
 ms.localizationpriority:

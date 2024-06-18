@@ -5,7 +5,7 @@ keywords: HoloLens, GDPR, privacy, PII, data protection
 ms.reviewer: sekerawa, evmiller
 ms.date: 02/05/2021
 ms.service: hololens
-ms.topic: article
+ms.topic: concept-article
 ms.sitesec: library
 ms.localizationpriority:
 audience: HoloLens

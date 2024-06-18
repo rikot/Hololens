@@ -31,11 +31,11 @@ In between our feature updates, we also release fixes and improvements and secur
 
 To help provide clarity, this release notes page provides information for every major and minor update. The most current release is listed first, and previous releases follow in chronological order. If you’d like to learn about updates to down level versions (or view previous major feature releases), refer to the table that follows.
 
-Note:  the current release version is the April 2024 Update, Build 1272.
+Note:  the current release version is the June 2024 Update, Build 1383.
 
 | Major release   number | Feature release name                  | Date         | Build number |
 |------------------------|-------------------------------------|--------------|--------------|
-| 22621| [Windows Holographic, version 23H2](#windows-holographic-version-23h2---october-2023-update) <br> [Windows Holographic, version 23H1](#windows-holographic-version-23h1---june-2023-update)  | October 2023  <br> June 2023   | 22621.1244  <br> 22621.1113 |
+| 22621| [Windows Holographic, version 24H1](#windows-holographic-version-24h1---may-2024-update) <br> [Windows Holographic, version 23H2](#windows-holographic-version-23h2---october-2023-update) <br> [Windows Holographic, version 23H1](#windows-holographic-version-23h1---june-2023-update)  | May 2024  <br> October 2023  <br> June 2023   | 22621.1376  <br> 22621.1244  <br> 22621.1113 |
 | 20348| [Windows Holographic, version 22H2](#windows-holographic-version-22h2) <br> [Windows Holographic, version 22H1](#windows-holographic-version-22h1) <br> [Windows Holographic, version 21H2](#windows-holographic-version-21h2) <br> [Windows Holographic, version 21H1](#windows-holographic-version-21h1)  | November 2022 <br> April 2022 <br> October 2021 <br> May 2021   | 20348.1528 <br> 20348.1501 <br> 20348.1432 <br> 20346.1002   |
 | 19041                  | [Windows Holographic, version 20H2](hololens-release-notes-2004.md#windows-holographic-version-20h2) <br> [Windows Holographic, version 2004](hololens-release-notes-2004.md#windows-holographic-version-2004) | Nov 2020 <br> May 2020    | 19041.1128 <br> 19041.1103  |
 | 18362                  | [Windows Holographic, version 1903](hololens-release-notes-1903.md#windows-holographic-version-1903---november-2019-update)   | Nov 2019     | 18362.1039   |
@@ -60,6 +60,100 @@ To explicitly check for updates, launch the Settings app and select **Update & S
 
 > [!TIP]
 > Searching for a feature but didn't find it on this page? Try checking out of the previous feature release pages. You can navigate there using the links provided, or the table of contents.
+
+## Windows Holographic, version 24H1 - June 2024 Update
+
+- Build 22621.1383
+
+Improvements and fixes in the update:
+
+- Fixed a keyboard issue blocking Chinese typing with Microsoft PinYin IME.
+- Minimized the occurrence of unplanned activations of the system voice command ‘what is my IP’.
+- Fixed an issue where eye tracking calibration is not be displayed for new user sign-in even if allowed by policy.
+
+## Windows Holographic, version 24H1 - May 2024 Update
+
+- Build 22621.1376
+
+Windows Holographic, version 24H1 is now available and brings a great set of new features to HoloLens 2 users, IT professionals and developers. Check out all the new great features for HoloLens 2!
+
+| Feature   | Description  | User or scenario |
+|-----------|--------------|---|
+|[OpenXR code update](#openxr-code-update)|In-box OpenXR code updated to version 113.2403.5001. | Developer |
+|[Shared Microsoft Entra accounts](#shared-microsoft-entra-accounts)|Shared Microsoft Entra (formerly Azure Active Directory) accounts on HoloLens are regular Microsoft Entra user accounts that can sign-in to the HoloLens without requiring any credentials. | IT Admin |
+|[Policy to enable auto unlock](#policy-to-enable-auto-unlock)|Policy to control whether a user is prompted for credentials when returning to the device in suspended state. | IT Admin |
+|[Collect and view network connectivity report](#collect-and-view-network-connectivity-report)|Network connectivity report is added to Offline Diagnostics to help users investigate network connectivity issues on HoloLens 2 devices. | All |
+|[Enforce time sync during OOBE](#enforce-time-sync-during-oobe)| When the HoloLens connects to Wi-Fi, the device attempts to sync with the time server. | All |
+|[Improve Intune app update experience](#improve-intune-app-update-experience)|The Intune LOB App update waits for App exit instead of forcing App shutdown. | All |
+|[Update to eye tracking calibration](#update-to-eye-tracking-calibration)|The option to perform eye tracking calibration is shown on the device even if it has been deployed via Autopilot. | All |
+|[Policies to set device standby action](#policies-to-set-device-standby-action)|Policies allow the admin to execute supported actions in modern standby. | IT Admin |
+|[Fixes and improvements](#fixes-and-improvements)  | More fixes and improvements for HoloLens. | All  |
+
+### IT Admin Checklist
+
+✔️ If you want to create a Shared Microsoft Entra account on HoloLens, then see [Shared Microsoft Entra accounts](#shared-microsoft-entra-accounts).
+
+✔️ If you want to configure whether users are prompted for credentials when returning to a device in suspended state, then see [Policy to enable auto unlock](#policy-to-enable-auto-unlock).
+
+✔️ If you want to control the behavior of the device in modern standby, then see [Policies to set device standby action](#policies-to-set-device-standby-action).
+
+### OpenXR Code Update
+
+The latest release of OpenXR provides the best out-of-box experience for customers without Microsoft store access.  See [OpenXR Tools for Windows Mixed Reality - 113.2403.5001](https://github.com/microsoft/OpenXR-MixedReality/releases/tag/113.2403.5001) for more details on the release.
+
+### Shared Microsoft Entra accounts
+
+Using a shared Microsoft Entra account on your HoloLens results in the quickest login experience, since it does not require any credentials. This setup is ideal for scenarios where the following conditions are true:
+
+- Multiple people share the same set of HoloLens devices.
+- Access to Microsoft Entra resources, such as Dynamics 365 Guides content, is required.
+- Tracking who used the device isn't required.
+
+More details, including specific steps on how to configure these accounts, can be found in the [Shared Microsoft Entra accounts in HoloLens](shared-aad-accounts.md) article.
+
+### Improve Intune app update experience
+
+The Intune LOB App update does not enforce App shutdown if the App is still running on the device. Instead, the new version of the LOB App is installed and replaces the old App only after the old App is fully exited via user action, sign out or device reboot. 
+
+Refer to [Consistent LOB App deployment and update](/hololens/hololens-best-practices-experiences#consistent-lob-app-deployment-and-update) for best practices on getting a consistent LOB App update experience for HoloLens devices.
+
+### Policy to enable auto-unlock
+
+New policy to enable auto unlock [MixedReality/AutoUnlock](/windows/client-management/mdm/policy-csp-mixedreality#autounlock). When enabled, this policy allows a signed-in user to resume using the device without having to enter credentials. 
+
+### Collect and view network connectivity report
+
+Network connectivity report is added to Offline Diagnostics to help users investigate network connectivity issues on HoloLens 2 devices. After user triggers Offline Diagnostics, device IP addresses, Wi-Fi information, proxy settings and device’s connectivity to known cloud service endpoints are collected.
+
+The report file NetworkConnectivityReport.txt is included in the diagnostics ZIP file under Documents folder. Users can also view the report on device through Settings > Update & Security > Troubleshoot > View network connectivity report.
+
+### Enforce time sync during OOBE
+
+During OOBE, the HoloLens device attempts to sync the device time with the time server after the device connects to Wi-Fi.
+
+### Update to eye tracking calibration
+
+The option to perform eye tracking calibration is now shown on the device even if it is deployed via Autopilot. Customers can still opt to disable this behavior via the existing [MixedReality/SkipCalibrationDuringSetup](/windows/client-management/mdm/policy-csp-mixedreality#skipcalibrationduringsetup) policy.
+
+Any user on the device can still choose to run eye calibration at any time to improve their experience.
+
+### Policies to set device standby action
+
+[MixedReality/ConfigureDeviceStandbyAction](/windows/client-management/mdm/policy-csp-mixedreality#configuredevicestandbyaction) and [MixedReality/ConfigureDeviceStandbyActionTimeout](/windows/client-management/mdm/policy-csp-mixedreality#configuredevicestandbyactiontimeout) policies enable configuring HoloLens 2 to execute certain action, when device is in modern standby after certain period of time. See policy documentation for supported actions.
+
+### Fixes and improvements
+
+- Fixed an issue where the user picture displayed does not match the selected user on the sign in screen if [MixedReality/PreferLogonAsOtherUser](/windows/client-management/mdm/policy-csp-mixedreality?branch=main#preferlogonasotheruser) policy is enabled.
+
+- Fixed an issue where the user list cannot be dismissed by clicking on the "Add User" or the "Other User" buttons on the sign in screen if [MixedReality/PreferLogonAsOtherUser](/windows/client-management/mdm/policy-csp-mixedreality?branch=main#preferlogonasotheruser) policy is enabled.
+
+- Improved error handling when the device reaches the max number of supported users on device. See [Remove users on a device](https://aka.ms/hlmaxusers) for recommendations if your device is used by more than 63 Microsoft Entra accounts.
+
+- Improved error handling when the wrong user credentials are supplied when using web sign in.
+
+- Fixed an issue in Device Portal that would sometimes prevent the export of the spatial mapping database.
+
+- Modified the timing of when LOB App updates occur.  In the past, LOB App updates forced applications to shut down to complete an update.  Now, if an application is actively being used, the LOB App update waits to perform the update until the application is not in use.
 
 ## Windows Holographic, version 23H2 - April 2024 Update
 
@@ -830,7 +924,7 @@ Color-blind mode is a feature to help make HoloLens more accessible. The new col
 
 ### Single app kiosk policy for launching other apps
 
-Introduced a new MDM policy MixedReality\AllowLaunchUriInSingleAppKiosk. This policy can be enabled to allow for other apps to be launched with in a single app Kiosk. This can be useful if you want to launch the Settings app to calibrate your device or change your Wi-Fi.
+Introduced a new MDM policy MixedReality\AllowLaunchUriInSingleAppKiosk. This policy can be enabled to allow for other apps to be launched with in a single app Kiosk. It can be useful if you want to launch the Settings app to calibrate your device or change your Wi-Fi.
 
 By default, launching applications via [Launcher API (Launcher Class (Windows.System) - Windows UWP applications)](/uwp/api/Windows.System.Launcher?view=winrt-22000&preserve-view=true) is disabled in single app kiosk mode. To enable applications to launch in single app kiosk mode on HoloLens devices, set the policy value to true.
 
@@ -880,7 +974,7 @@ Improvements and fixes in the update:
 
 ### Moving Platform Mode Settings
 
-We've added a new page to the Settings app to configure and control [Moving Platform Mode](hololens2-moving-platform.md). Being able to turn on Moving Platform Mode no longer requires needing to use device portal, which increases usability and security. User can reach the new page by opening the **Settings** app and selecting -> **System** -> **Holograms** and scroll down to see the Moving Platform Mode section and select **Setup Moving Platform Mode**.
+We added a new page to the Settings app to configure and control [Moving Platform Mode](hololens2-moving-platform.md). Being able to turn on Moving Platform Mode no longer requires needing to use device portal, which increases usability and security. User can reach the new page by opening the **Settings** app and selecting -> **System** -> **Holograms** and scroll down to see the Moving Platform Mode section and select **Setup Moving Platform Mode**.
 
 ![How to reach the Moving Platform Mode page](images/mpm-from-holograms-settings.jpg)
 
@@ -894,7 +988,7 @@ Users can also manually set the down direction, if, for instance,  you’re usin
 
 #### MixedReality/ConfigureMovingPlatform
 
-This policy controls the behavior of moving platform feature on HoloLens 2, that is, whether it’s turned off / on.  A user can toggle this capability. Only customers who intend to use HoloLens 2 in moving environments with low dynamic motion should use this policy. Refer to [HoloLens 2 Moving Platform Mode](hololens2-moving-platform.md) for background information.
+This policy controls the behavior of moving platform feature on HoloLens 2, that is, whether it’s off / on.  A user can toggle this capability. Only customers who intend to use HoloLens 2 in moving environments with low dynamic motion should use this policy. Refer to [HoloLens 2 Moving Platform Mode](hololens2-moving-platform.md) for background information.
 
 The OMA-URI of new policy: `./Device/Vendor/MSFT/Policy/Config/MixedReality/ConfigureMovingPlatform`
 
@@ -906,7 +1000,7 @@ Supported values:
 
 #### MixedReality/ManualDownDirectionDisabled
 
-This policy controls whether the user can change down direction manually or not. If no down direction is set by the user, then an automatically calculated down direction is used by the system. This policy has no dependency on ConfigureMovingPlatform policy and they can be set independently.
+This policy controls whether the user can change down direction manually or not. If the user does not set the down direction, then an automatically calculated down direction is used by the system. This policy has no dependency on ConfigureMovingPlatform policy and they can be set independently.
 
 The OMA-URI of new policy: `./Device/Vendor/MSFT/Policy/Config/MixedReality/ManualDownDirectionDisabled`
 
@@ -917,7 +1011,7 @@ Supported values:
 
 ### Moving Platform Mode SDK
 
-Sometimes you may want the decision on if to use Moving Platform Mode to be dependent on your situation, you may only need it enabled when using your app, or only a specific app. In these cases, you may wish to [enable Moving Platform Mode from your app using the SDK](/windows/mixed-reality/develop/unity/moving-platform-unity).
+There are cases where you want the availability of Moving Platform Mode to be dependent on your situation, enabled for your app or enabled for a specific app. In these cases, you may wish to [enable Moving Platform Mode from your app using the SDK](/windows/mixed-reality/develop/unity/moving-platform-unity).
 
 #### Improvements and fixes in the February 2022 update
 
@@ -935,7 +1029,7 @@ Sometimes you may want the decision on if to use Moving Platform Mode to be depe
 
 ### Start gestures settings
 
-The team has implemented a solution for users who don't want the start menu popping up while doing tasks while looking at their hands, such as surgery and using apps like Remote Assist. This can also help in other scenarios.
+There may be situations where a user many not want the start menu to pop up while doing certain tasks while they look at their hands, such as surgery and using apps like Remote Assist. This solution can also help in other scenarios.
 
 Open the **Start menu** and select the **Settings** app -> **System** -> **Start gestures**.
 
@@ -981,9 +1075,9 @@ Improvements and fixes in the update:
 
 - Build 20348.1432
 
-Windows Holographic, version 21H2 is now available and brings a great set of new features to HoloLens 2 users and IT professionals. This one’s about the improved troubleshooting and device reports, some fixed bugs in kiosk mode and the certificate viewer, the expanded manageability surface and the increased update reliability. A new flagship feature of this feature update coming to HoloLens is our Moving Platform Mode. Check out all the new great features for HoloLens 2!
+Windows Holographic, version 21H2 is now available and brings a great set of new features to HoloLens 2 users and IT professionals. This release includes improved troubleshooting and device reports, some fixed bugs in kiosk mode and the certificate viewer, the expanded manageability surface and the increased update reliability. A new flagship feature of this feature update coming to HoloLens is our Moving Platform Mode. Check out all the new great features for HoloLens 2!
 
-This latest release is a monthly update to version 21H1, but this time we're including new features, because of this the major build number remains the same and Windows Update indicates a monthly release to version 21H1 (build 20348). To ensure you've received 21H2, verify the version number is 20348.1432 or higher. You can look at your Build Number in your **Settings** -> **System** -> **About** screen to confirm you are on the latest available build 20348.1432+.
+This latest release is a monthly update to version 21H1, but this time we're including new features, because of this the major build number remains the same and Windows Update indicates a monthly release to version 21H1 (build 20348). To check if you have 21H2, verify the version number is 20348.1432 or higher. You can look at your Build Number in your **Settings** -> **System** -> **About** screen to confirm you are on the latest available build 20348.1432+.
 
 To update to the latest release, open the Settings app, go to Update & Security, and tap Check for Updates. For more information on how to manage HoloLens updates, visit [Manage HoloLens updates.](hololens-updates.md)
 
@@ -1009,11 +1103,11 @@ To update to the latest release, open the Settings app, go to Update & Securit
 ✔️ If you'd like to have more control over OS updates, check out these [newly enabled Update policies.](#improved-update-restart-detection-and-notifications) <br>
 ✔️ If you need to make your organization's apps available on the company store via the Microsoft Store, but want to only allow access to your organization's apps and not the full store, [set this policy.](#use-only-private-store-apps-for-microsoft-store) <br>
 ✔️ If you'd like to know the free storage space, SSID, or BSSID of your HoloLens devices, then check out these [reporting CSPs.](#csp-changes-for-reporting-hololens-details) <br>
-✔️ If you'd like to use WDAC to block apps or processes from launching, but also need to use your own line of bushiness apps, you can now [allow LOB in your WDAC policy](#use-wdac-and-lob-apps).
+✔️ If you'd like to use WDAC to block apps or processes from launching while also using your own line of bushiness apps, you can now [allow LOB in your WDAC policy](#use-wdac-and-lob-apps).
 
 ### Moving Platform Mode
 
-As of [Windows Holographic, version 21H2](hololens-release-notes.md#windows-holographic-version-21h2) we have added beta support for tracking on low-dynamic motion moving platforms on HoloLens 2. After installing the build and enabling Moving Platform Mode, you’ll be able to use your HoloLens 2 in previously inaccessible environments, like large ships and large marine vessels. Currently, the feature is targeted at enabling these specific moving platforms only. While nothing prevents you from attempting to use the feature in other environments, the feature is focused on adding support for these environments first.
+As of [Windows Holographic, version 21H2](hololens-release-notes.md#windows-holographic-version-21h2) we added beta support for tracking on low-dynamic motion moving platforms on HoloLens 2. After installing the build and enabling Moving Platform Mode, you’ll be able to use your HoloLens 2 in previously inaccessible environments, like large ships and large marine vessels. Currently, the feature is targeted at enabling these specific moving platforms only. While nothing prevents you from attempting to use the feature in other environments, the feature is focused on adding support for these environments first.
 
 To learn more about what is supported and how to enable this new feature, [visit the moving platform page](hololens2-moving-platform.md).
 
@@ -1025,7 +1119,7 @@ To learn more about what is supported and how to enable this new feature, [visit
 
 ### PFX file support for Certificate Manager
 
-Introduced in Windows Insider build 20348.1405. We’ve added support to the [Certificate Manager](certificate-manager.md) to now use .pfx certificates. When users navigate to **Settings** > **Update & Security** > **Certificates**, and select **Install a certificate** the UI now supports .pfx certificate file.
+Introduced in Windows Insider build 20348.1405. We added support to the [Certificate Manager](certificate-manager.md) to now use .pfx certificates. When users navigate to **Settings** > **Update & Security** > **Certificates**, and select **Install a certificate** the UI now supports .pfx certificate file.
 Users can import .pfx certificate, with private key, to user store or machine store.
 
 #### Overview to try out PFX files in Certificate Manager
@@ -1036,7 +1130,7 @@ Users can import .pfx certificate, with private key, to user store or machine st
 
 ### View advanced diagnostic report in Settings on HoloLens
 
-For managed devices when troubleshooting behavior, confirming that an expected policy configuration was applied is an important step. Previously to this new feature, this had to be done off device via MDM or near the device after exporting MDM diagnostic logs gathered via **Settings** -> **Accounts** > **Access work or school**, and select **Export your management logs** and viewed on a nearby PC.
+For managed devices when troubleshooting behavior, confirming that an expected policy configuration was applied is an important step. Prior to this new feature, the method to verify a policy was performed off device via MDM or near the device after exporting MDM diagnostic logs gathered via **Settings** -> **Accounts** > **Access work or school**, and select **Export your management logs** and viewed on a nearby PC.
 
 Now the MDM Diagnostics can be viewed on device using the Edge browser. To more easily view the MDM Diagnostic report navigate to the Access work or school page, and select **View advanced diagnostic report**. This generates and opens the report in a new Edge window.
 
@@ -1414,7 +1508,7 @@ There are a couple methods available for installing Microsoft Edge Insider chann
 
 **Direct install on device (currently only available to unmanaged devices)**
 
-  1. On your HoloLens 2, visit the [Edge Insider download page](https://www.microsoftedgeinsider.com/download).
+1. On your HoloLens 2, visit the [Edge Insider download page](https://www.microsoftedgeinsider.com/download).
   1. Select the **Download for HoloLens 2** button for the Edge Insider channel you wish to install.
   1. Launch the downloaded .msix file from the Edge download queue or from your device's "Downloads" folder (using File Explorer).
   1. [App installer](app-deploy-app-installer.md) launches.
@@ -1423,7 +1517,7 @@ There are a couple methods available for installing Microsoft Edge Insider chann
 
 **Install via PC with Windows Device Portal (requires [developer mode](/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal#setting-up-hololens-to-use-windows-device-portal) to be enabled on HoloLens 2)**
 
-  1. On your PC, visit the [Edge Insider download page](https://www.microsoftedgeinsider.com/download).
+1. On your PC, visit the [Edge Insider download page](https://www.microsoftedgeinsider.com/download).
   1. Select the **drop-down arrow button** next to the "Download for Windows 10" button for the Edge Insider channel you wish to install.
   1. Select **HoloLens 2** in the drop-down menu.
   1. Save the .msix file to the "Downloads" folder of your PC (or another folder you can easily find).
@@ -1464,7 +1558,7 @@ The 360 Viewer extension is built on WebXR and automatically installs alongside 
 1. Select the **Enter VR** button on the website. The location and visual representation of this button may vary per website, but it may look similar to:
 
     ![Enter VR button example.](images/75px-enter-vr.png)
-
+   
 1. The first time you try to launch a WebXR experience on a specific domain, the browser asks for consent to enter an immersive view, select **Allow**.
 1. Use [HoloLens 2 gestures](hololens2-basic-usage.md#the-hand-tracking-frame) to manipulate the experience.
 1. If the experience doesn't have an **Exit** button, use the [Start gesture](hololens2-basic-usage.md#start-gesture) to return home.
@@ -1481,7 +1575,7 @@ The 360 Viewer extension is built on WebXR and automatically installs alongside 
 1. In the video frame, select the mixed reality headset button:
 
     ![Button to activate 360 Viewer.](images/enter-360-viewer.jpg)
-
+   
 1. The first time you try to launch 360 Viewer on a specific domain, the browser asks for consent to enter an immersive view. Select **Allow**.
 1. [Air tap](hololens2-basic-usage.md#select-using-air-tap) to bring up the playback controls. Use [hand rays and air tap](hololens2-basic-usage.md#select-using-air-tap) to play/pause, skip forward/back, turn captions on/off, or stop the experience (which exits the immersive view). The playback controls disappear after a few seconds of inactivity.
 
@@ -1551,7 +1645,7 @@ With this new setting, you can select an alternative color profile for your Holo
 1. Select buttons 1-6 to instantly try out each color profile, and find one that looks the best to your eyes (this usually means the profile that helps the scene appear most neutral, with the grayscale pattern and skin tones looking as expected.)
 
     ![Display color calibration scene.](images/color-cal-ui.png)
-
+   
 1. When you're happy with the selected profile, select the **Save & Exit** button
 1. If you prefer not to make changes, select the **Cancel & Exit** button and your changes is reverted
 

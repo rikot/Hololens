@@ -1,0 +1,297 @@
+Items:
+- name: Microsoft HoloLens
+  href: index.yml
+- name: Device Overview
+  items:
+  - name: About HoloLens 2
+    href: hololens2-hardware.md
+  - name: What can HoloLens 2 do for you?
+    href: hololens-commercial-features.md
+  - name: Discover HoloLens 2 Editions
+    items:
+    - name: Compare HoloLens 2 options
+      href: hololens2-options.md
+    - name: Device-only edition
+      href: hololens2-options-device-only.md
+    - name: Remote Assist edition
+      href: hololens2-options-remote-assist.md
+    - name: Industrial edition
+      href: hololens2-options-industrial-edition.md
+      items:
+      - name: HoloLens 2 Industrial edition FAQs
+        href: hololens2-industrial-edition-faq.md
+    - name: Development edition
+      href: hololens2-options-dev-edition.md
+      items:
+      - name: HoloLens 2 Development edition FAQs
+        href: hololens2-development-edition-faq.yml
+    - name: Trimble XR10 edition
+      href: hololens2-options-trimble-xr10-edition.md
+- name: Using your HoloLens
+  items:
+  - name: First-time usage
+    items:
+    - name: Unboxing your HoloLens 2
+      href: hololens2-setup.md
+    - name: First time user set up on your HoloLens 2
+      href: hololens2-start.md
+    - name: Set up more users on your HoloLens 2
+      href: hololens2-new-user-optimize.md
+    - name: Getting around HoloLens 2
+      href: hololens2-basic-usage.md
+    - name: Update HoloLens
+      href: hololens-update-hololens.md
+  - name: Daily Usage
+    items:
+    - name: Navigate the Windows Holographic interface
+      items:
+      - name: Use the Start menu and mixed reality home
+        href: holographic-home.md
+      - name: Use your voice to operate HoloLens
+        href: hololens-cortana.md
+      - name: Find, open, and save files on HoloLens
+        href: holographic-data.md
+      - name: Create mixed reality photos and videos
+        href: holographic-photos-and-videos.md
+      - name: New Settings app
+        href: hololens-new-settings.md
+      - name: New Microsoft Edge
+        href: hololens-new-edge.md
+    - name: Manage applications
+      items:
+      - name: Find, install, and uninstall store apps
+        href: holographic-store-apps.md
+      - name: Manage custom apps for HoloLens 2
+        href: hololens2-holographic-custom-apps.md
+    - name: Hologram optics and placement in space
+      items:
+      - name: Improve visual quality and comfort
+        href: hololens-calibration.md
+      - name: Map physical spaces with HoloLens
+        href: hololens-spaces.md
+      - name: HoloLens environment considerations
+        href: hololens-environment-considerations.md
+      - name: Moving Platforms
+        href: hololens2-moving-platform.md
+    - name: Connect your HoloLens 2
+      items:
+      - name: Connect HoloLens to a network
+        href: hololens-network.md
+      - name: Connect to Bluetooth and USB-C devices
+        href: hololens-connect-devices.md
+      - name: Connect to Cellular and 5G
+        href: hololens-cellular.md
+    - name: HoloLens 2 battery and charging
+      href: hololens2-charging.md
+    - name: HoloLens 2 fit and comfort FAQs
+      href: hololens2-fit-comfort-faq.md
+    - name: HoloLens 2 cleaning FAQ
+      href: hololens2-maintenance.md
+- name: Deploying HoloLens 2
+  items:
+  - name: Common deployment scenarios
+    href: hololens-requirements.md
+  - name: Planning HoloLens 2 deployment
+    href: hololens-core-components.md
+  - name: Deployment Guides
+    items:
+    - name: Cloud connected environment deployment guide
+      items:
+      - name: Overview
+        href: hololens2-cloud-connected-overview.md
+      - name: Prepare
+        href: hololens2-cloud-connected-prepare.md
+      - name: Configure
+        href: hololens2-cloud-connected-configure.md
+      - name: Deploy
+        href: hololens2-cloud-connected-deploy.md
+      - name: Maintain
+        href: hololens2-cloud-connected-maintain.md
+      - name: External clients
+        href: hololens2-deployment-guide.md
+    - name: Corporate network deployment guide
+      items:
+      - name: Overview
+        href: hololens2-corp-connected-overview.md
+      - name: Prepare
+        href: hololens2-corp-connected-prepare.md
+      - name: Configure
+        href: hololens2-corp-connected-configure.md
+      - name: Deploy
+        href: hololens2-corp-connected-deploy.md
+      - name: Maintain
+        href: hololens2-corp-connected-maintain.md
+    - name: Offline secure environment deployment guide
+      href: hololens-common-scenarios-offline-secure.md
+    - name: Near offline or isolated environments deployment guide
+      href: hololens-common-scenarios-near-offline-restricted.md
+    - name: Shared HoloLens 2 with Remote Assist deployment guide
+      href: hololens2-deploying-remote-assist-using-shared-identity.md
+    - name: Experiences Best Practices
+      href: hololens-best-practices-experiences.md
+    - name: License requirements
+      href: hololens-licenses-requirements.md
+  - name: Identity
+    items:
+    - name: Manage user identity and sign-in for HoloLens
+      href: hololens-identity.md
+    - name: Share HoloLens with multiple people
+      href: hololens-multiple-users.md
+    - name: Shared Microsoft Entra accounts in HoloLens
+      href: shared-aad-accounts.md
+  - name: Security
+    items:
+    - name: Security overview
+      href: security-overview.md
+    - name: Architecture
+      href: security-architecture.md
+    - name: State separation and isolation
+      href: security-state-separation-isolation.md
+    - name: Admin-less operating system 
+      href: security-adminless-os.md
+    - name: Limiting password use
+      href: security-limiting-password-use.md
+    - name: Hardware-backed security and runtime attestation
+      href: security-hardware-backed-integrity.md
+    - name: Encryption and data protection
+      href: security-encryption-data-protection.md
+    - name: Network security
+      href: security-network-security.md
+    - name: Security engineering 
+      href: security-engineering.md
+    - name: HoloLens 2 Privacy and Data Protection
+      href: hololens2-privacy.md
+    - name: Security baseline
+      href: security-baseline.md
+  - name: Device Enrollment
+    items:
+    - name: Enroll HoloLens in MDM
+      href: hololens-enroll-mdm.md
+    - name: Windows Autopilot for HoloLens 2
+      href: hololens2-autopilot.md
+    - name: Enroll in MAC address restricted Wi-Fi environment
+      href: mac-address-options.md
+  - name: Application Deployment
+    items:
+    - name: Application management overview
+      href: app-deploy-overview.md
+    - name: Intune & Company Portal
+      href: app-deploy-intune.md
+    - name: Microsoft Store for Business & Intune
+      href: app-deploy-store-business.md
+    - name: Provisioning Package
+      href: app-deploy-provisioning-package.md
+    - name: App Installer
+      href: app-deploy-app-installer.md
+  - name: Policies (CSPs)
+    items:
+    - name: Configure CSPs and Device Management overview
+      href: hololens-csp-policy-overview.md
+    - name: Using MDM to manage HoloLens devices
+      href: hololens-mdm-configure.md
+    - name: Configure HoloLens using provisioning packages
+      href: hololens-provisioning.md
+    - name: Common device restrictions
+      href: hololens-common-device-restrictions.md
+    - name: Set up HoloLens as a kiosk
+      href: hololens-kiosk.md
+    - name: HoloLens Kiosk reference information
+      href: hololens-kiosk-reference.md
+    - name: Windows Defender Application Control - WDAC
+      href: windows-defender-application-control-wdac.md
+    - name: Page Settings CSP and URIs for HoloLens
+      href: settings-uri-list.md
+  - name: Network & Connectivity
+    items:
+    - name: Configure your network for HoloLens
+      href: hololens-commercial-infrastructure.md
+    - name: Prepare certificates and network profiles for HoloLens 2
+      href: hololens-certificates-network.md
+    - name: Manage connection endpoints for HoloLens
+      href: hololens-offline.md
+    - name: Certificate Manager
+      href: certificate-manager.md
+  - name: Manage HoloLens updates
+    href: hololens-updates.md
+  - name: Maintain HoloLens devices
+    href: hololens-maintaining-devices.md
+- name: Troubleshooting
+  items:
+  - name: Device
+    href: hololens-troubleshooting.md
+  - name: Holograms and interactions
+    href: hololens-faq.md
+  - name: Display
+    href: hololens2-display.md
+  - name: Implementation and managed devices
+    href: hololens2-enterprise-troubleshooting.md#
+  - name: Enable diagnostic logs
+    href: hololens-diagnostic-logs.md
+  - name: Diagnose network issues
+    href: hololens2-diagnose-network-issues.md
+  - name: Restart, reset, or recover HoloLens 2
+    href: hololens-recovery.md
+- name: Resources
+  items:
+  - name: Where to buy HoloLens 2
+    href: hololens2-purchase.md
+  - name: Support and help options
+    href: hololens2-support.md
+  - name: Autopilot support requests
+    href: hololens2-autopilot-registration-support.md
+  - name: HoloLens 2 release notes
+    href: hololens-release-notes.md
+  - name: Insider preview for Microsoft HoloLens
+    href: hololens-insider.md
+  - name: Older releases
+    items:
+    - name: HoloLens 2 release notes - 2004
+      href: hololens-release-notes-2004.md
+    - name: HoloLens 2 release notes - 1903
+      href: hololens-release-notes-1903.md
+    - name: HoloLens (1st gen)
+      items:
+      - name: First-time usage
+        items:
+        - name: About HoloLens (1st gen)
+          href: hololens1-hardware.md
+        - name: HoloLens (1st gen) fit and comfort
+          href: hololens1-fit-comfort-faq.md
+        - name: Basic usage overview
+          href: hololens1-setup.md
+        - name: Set up your HoloLens (1st gen)
+          href: hololens1-start.md
+      - name: Daily Usage
+        items:
+        - name: Use the HoloLens (1st gen) clicker
+          href: hololens1-clicker.md
+        - name: Use 3D Viewer on HoloLens (1st gen)
+          href: holographic-3d-viewer-beta.md
+        - name: Getting around HoloLens (1st gen)
+          href: hololens1-basic-usage.md
+        - name: Manage custom apps for HoloLens
+          href: holographic-custom-apps.md
+        - name: Install localized version of HoloLens (1st gen)
+          href: hololens1-install-localized.md
+        - name: Unlock Windows Holographic for Business features
+          href: hololens1-upgrade-enterprise.md
+        - name: Restart, reset, or recover HoloLens (1st gen)
+          href: hololens1-recovery.md
+      - name: HoloLens (1st gen) Security
+        items:
+        - name: Frequently asked HoloLens (1st gen) Security Questions
+          href: hololens1-faq-security.yml
+        - name: HoloLens (1st Gen) BitLocker Encryption
+          href: hololens1-encryption.md
+      - name: Known issues and workarounds for HoloLens (1st gen)
+        href: hololens-known-issues.md
+      - name: HoloLens (1st Gen) release notes
+        href: hololens1-release-notes.md
+  - name: Supported languages
+    href: hololens2-language-support.md
+- name: Give us feedback
+  items:
+  - name: Give us feedback via Feedback Hub
+    href: hololens-feedback.md
+  - name: HoloLens docs contributing guide
+    href: contributing.md

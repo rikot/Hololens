@@ -45,7 +45,7 @@ In addition to the list above, to take full advantage of HoloLens functionality,
 | Azure                                               | wd-prod-fe.cloudapp.azure.com                                       |
 |                                                     | ris-prod-atm.trafficmanager.net                                     |
 |                                                     | validation-v2.sls.trafficmanager.net                                |
-| Microsoft Entra multifactor authentication                | https://secure.aadcdn.microsoftonline-p.com                         |
+| Microsoft Entra multifactor authentication                | https:\/\/secure\.aadcdn.microsoftonline-p.com                         |
 | Intune and MDM Configurations                       | activation-v2.sls.microsoft.com/*                                   |
 |                                                     | cdn.onenote.net                                                     |
 |                                                     | client.wns.windows.com                                              |

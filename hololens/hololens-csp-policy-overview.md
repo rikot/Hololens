@@ -3,7 +3,7 @@ title: Configure CSPs and Device Management overview
 description: Learn how to configure CSPs, policy, and device management using Mobile Device Management and provisioning packages. 
 ms.service: hololens
 ms.sitesec: library
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority:
 ms.date: 09/16/2020
 ms.reviewer: lavinds

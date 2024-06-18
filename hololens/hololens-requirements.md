@@ -5,7 +5,7 @@ ms.service: hololens
 ms.sitesec: library
 ms.assetid: 88bf50aa-0bac-4142-afa4-20b37c013001
 audience: ITPro
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority:
 ms.date: 11/04/2020
 appliesto:
