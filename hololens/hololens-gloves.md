@@ -19,9 +19,7 @@ If your need to wear gloves for your job, you may have found that some types of 
 There are two main challenges when it comes to gloves on HoloLens 2 - infrared light absorption and bagginess. Read on to learn more.
 
 ### Infrared Light Absorption
-Hand tracking relies on a depth camera, which functions by projecting IR light into the scene and timing the reflectance back to the camera. Certain types of glove materials absorb the projected infrared light and therefore don't appear in the depth image, making your hands invisible and not trackable. We find that dark rubbery materials tend to exhibit this problem, and should be avoided. In general, we recommend using gloves that are mid-tone colors or brighter for best results.
-
-Please note that IR light absorption is a challenge that only applies to users wearing gloves. For users interacting without gloves, HoloLens 2 was designed and certified to support everyone with optimal tracking results, regardless of skin tone.
+Hand tracking relies on a depth camera, which functions by projecting IR light into the scene and timing the reflectance back to the camera. Certain types of glove materials absorb the projected infrared light and therefore don't appear in the depth image, making your hands invisible and not trackable. We find that dark rubbery materials tend to exhibit this problem, and should be avoided. In general, we recommend using gloves that are mid-tone colors or brighter for best results. Note that IR light absorption is a challenge that only applies to users wearing gloves.
 
 ### Bagginess
 Hand tracking operates by finding objects in the scene that look like hands. The larger and baggier the glove, the more it obscures the shape of your hand, which reduces that chance that the algorithm can detect it. In general, we recommend selecting gloves that are as form-fitting as possible for best results.
@@ -38,8 +36,6 @@ These are thin and tight-fitting gloves, typically made of nitrile or latex, and
 | Nitrile          | Nitrile          | Nitrile          | Nitrile          |
 | ✅**Pass**      | ✅**Pass**       | ✅ **Pass**      | ❌ **Fail**     |
 
-#### Links
- - https://www.amazon.com/Nitrile-Disposable-Gloves-Large-Powder
 
 
 ### General Purpose / Utility Gloves
@@ -51,9 +47,6 @@ These are your standard general-purpose utility gloves, typically with light pad
 | Synthetic Leather | Synthetic Leather | Synthetic Leather | Synthetic Leather|
 | ❌ **Fail**      | ❌ **Fail**       | ❌ **Fail**       | ✅ **Pass**     |
 
-#### Links
-  - https://www.homedepot.com/p/FIRM-GRIP-Large-Utility-Work-Gloves-3-Pack-63102-024/314420626
-  - https://www.homedepot.com/p/FIRM-GRIP-General-Purpose-Large-Gray-Synthetic-Leather-Glove-3-Pack-63352-18/305583146
 
 
 ### Cut Resistant Gloves - A1
@@ -65,9 +58,6 @@ These are thin, form-fitting utility gloves that provide grip, and a low level o
 | Polyurethane / Nylon | Nitrile / Polyester |
 | ❌ **Fail**      | ✅ **Pass**     |
 
-#### Links
-  - https://www.brassknuckleprotection.com/products/BK401
-  - https://www.homedepot.com/p/FIRM-GRIP-Large-Nitrile-Coated-Work-Gloves-5-Pack-5558-032/205644545
 
 
 ### Cut Resistant Gloves - A3
@@ -79,11 +69,6 @@ These are thin, form-fitting utility gloves that provide grip, and a medium leve
 | Polyurethane / Nylon | Nitrile / HPPE | Nitrile / HPPE | Polyurethane / HPPE          |
 | ✅ **Pass**      | ❌ **Fail**       | ✅ **Pass**       | ✅ **Pass** |
 
- #### Links
-  - https://www.uline.com/BL_3266/Uline-Dyneema-Diamond-Flex-Cut-Resistant-Gloves
-  - https://www.uline.com/BL_3195/MaxiCut-Ultra-44-3745-Cut-Resistant-Gloves
-  - https://www.grainger.com/product/CONDOR-Coated-Gloves-M-8-48UP97
-  - https://www.grainger.com/product/SHOWA-Coated-Gloves-L-8-497D66
 
 
 ### Cut Resistant Gloves - A4
@@ -95,11 +80,6 @@ These are thin, form-fitting utility gloves that provide grip and higher level o
 | Nitrile / HPPE | Polyurethane / HPPE | HPPE | Polyurethane / TenActiv |
 | ❌ **Fail**       | ✅ **Pass**       | ✅ **Pass**     | ✅ **Pass**     |
 
-#### Links
-  - https://www.uline.com/BL_2689/Uline-Durarmor-Elite-Elite-Plus-Cut-Resistant-Gloves
-  - https://www.grainger.com/product/MCR-SAFETY-Coated-Gloves-L-9-49JY75
-  - https://www.grainger.com/product/SHOWA-Cut-Resistant-Glove-L-8-54ZU54
-  - https://www.grainger.com/product/SUPERIOR-GLOVE-Knit-Gloves-L-9-55NC54
 
 
 ### Cut Resistant Gloves - A5
@@ -111,9 +91,7 @@ These gloves provide a very high level of cut resistance. We tested a typical pa
 | Polyurethane / Intercept         | TPR (Impact Resistant) / HPPE |
 | ✅ **Pass**     | ❌ **Fail**      | 
 
-#### Links
-  - https://www.grainger.com/product/HYFLEX-Knit-Gloves-L-9-61DD67
-  - https://www.grainger.com/product/ANSELL-Cut-Resistant-Gloves-L-10-61UL17
+
 
 ### Waterproof, Chemical Resistant Gloves
 These gloves are typically on the bulkier side and provide waterproof, chemical resistant protection for various use cases. The increased bagginess creates a more challenging tracking scenario, and we found that only the orange gloves tracked well on HoloLens 2. 
@@ -123,4 +101,3 @@ These gloves are typically on the bulkier side and provide waterproof, chemical 
 | ![Black Chemical Resistant Gloves](images/gloves/ChemicalResistant_Black.jpg) | ![Orange Impact Chemical Resistant Gloves](images/gloves/ChemicalResistant_OrangeImpact.jpg) | ![Yellow Chemical Resistant Gloves](images/gloves/ChemicalResistant_Yellow.jpg)             | ![Orange Chemical Resistant Gloves](images/gloves/ChemicalResistant_Orange.jpg)            |
 | Neoprene          | PVC          | PVC-Nitrile           | Latex            |
 | ❌ **Fail**       | ❌ **Fail**       | ❌ **Fail**     | ✅ **Pass**     |
-
