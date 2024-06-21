@@ -23,7 +23,7 @@ This article contains high-level steps involved in deploying Remote Assist using
 
 Create Microsoft Entra security groups and shared Microsoft Entra user accounts to be used to log in to HoloLens 2 devices.
 
-1. Login to [Microsoft Entra admin center](https://aad.portal.azure.com/) as Microsoft Entra Global Administrator.
+1. Login to [Microsoft Entra admin center](https://aad.portal.azure.com/) as at least a Groups Administrator and User Administrator.
 1. Navigate to [New Group admin center](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/AddGroupBlade) blade and create a Microsoft Entra ID **Security** Group to manage the HoloLens 2 shared user accounts. See [Create a basic group and add members](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal#create-a-basic-group-and-add-members) for step-by-step instructions.
 1. Navigate to [New user - Microsoft Entra admin center](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers) blade and create new user accounts to be shared by multiple people to log in to the HoloLens 2 device. One Microsoft Entra user account per HoloLens 2 device is recommended. For step-by-step instructions, see [Add or delete users](/azure/active-directory/fundamentals/add-users-azure-active-directory).
 1. Navigate to [Groups - Microsoft Entra admin center](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups), select the *Microsoft Entra security group name* -> **Members** -> + **Add members** and add the above user accounts to the security group. For step-by-step instructions, see [Add or remove group members](/azure/active-directory/fundamentals/active-directory-groups-members-azure-portal).
