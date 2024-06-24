@@ -36,101 +36,12 @@ Looking for a new feature but don't see it? We released many new features as par
 
 | Feature   | Description  | User or scenario | Available in build |
 |-----------|--------------|---|---|
-|[OpenXR code update](#openxr-code-update)|In-box OpenXR code updated to version 113.2403.5001. | Developer | 10.0.22621.1316 |
-|[Shared Microsoft Entra accounts](#shared-microsoft-entra-accounts)|Shared Microsoft Entra (formerly Azure Active Directory) accounts on HoloLens are regular Microsoft Entra user accounts that can sign-in to the HoloLens without requiring any credentials. | IT Admin | 10.0.22621.1303|
-|[Policy to enable auto unlock](#policy-to-enable-auto-unlock)|Policy to control whether a user is prompted for credentials when returning to the device in suspended state. | IT Admin | 10.0.22621.1303|
-|[Collect and view network connectivity report](#collect-and-view-network-connectivity-report)|Network connectivity report is added to Offline Diagnostics to help users investigate network connectivity issues on HoloLens 2 devices. | All | 10.0.22621.1303|
-|[Enforce time sync during OOBE](#enforce-time-sync-during-oobe)| When the HoloLens connects to Wi-Fi, the device attempts to sync with the time server. | All | 10.0.22621.1303|
-|[Improve Intune app update experience](#improve-intune-app-update-experience)|The Intune LOB App update waits for App exit instead of forcing App shutdown. | All | 10.0.22621.1296|
-|[Update to eye tracking calibration](#update-to-eye-tracking-calibration)|The option to perform eye tracking calibration is shown on the device even if it has been deployed via Autopilot. | All | 10.0.22621.1296|
-|[Policies to set device standby action](#policies-to-set-device-standby-action)|Policies allow the admin to execute supported actions in modern standby. | IT Admin | 10.0.22621.1286|
-|[Fixes and improvements](#fixes-and-improvements)  | Additional fixes and improvements for HoloLens. | All   | 10.0.22621.1205 |
-
-### OpenXR Code Update
-
-The latest release of OpenXR provides the best out-of-box experience for customers without Microsoft store access.  See [OpenXR Tools for Windows Mixed Reality - 113.2403.5001](https://github.com/microsoft/OpenXR-MixedReality/releases/tag/113.2403.5001) for more details on the release.
-
-### Shared Microsoft Entra accounts
-
-Using a shared Microsoft Entra account on your HoloLens results in the quickest login experience, since it does not require any credentials. This setup is ideal for scenarios where the following conditions are true:
-
-- Multiple people share the same set of HoloLens devices.
-- Access to Microsoft Entra resources, such as Dynamics 365 Guides content, is required.
-- Tracking who has used the device isn't required.
-
-More details, including specific steps on how to configure these accounts, can be found in the [Shared Microsoft Entra accounts in HoloLens](shared-aad-accounts.md) article.
-
-> [!TIP]
-> **Validation Tip:**
-> Try this in your shared environments, utilizing your apps, to ensure that shared Microsoft Entra accounts work without any credentials.
-
-### Improve Intune app update experience
-
-The Intune LOB App update does not enforce App shutdown if the App is still running on the device. Instead, the new version of the LOB App is installed and replaces the old App, once the old App is fully exited via user action, sign out or device reboot. 
-
-Refer to [Consistent LOB App deployment and update](/hololens/hololens-best-practices-experiences#consistent-lob-app-deployment-and-update) for best practices on getting a consistent LOB App update experience for HoloLens devices.
-
-> [!TIP]
-> **Validation Tip:**
-> Try this in your own environment and utilizing your own app to ensure that your app doesn't shut down when an update is waiting to load.
-
-### Policy to enable auto-unlock
-
-New policy to enable auto unlock [MixedReality/AutoUnlock](/windows/client-management/mdm/policy-csp-mixedreality#autounlock). When enabled, this policy allows a signed-in user to resume using the device without having to enter credentials. 
-
-> [!TIP]
-> **Validation Tip:**
-> Try to modify this policy and ensure that auto unlock works in your specific environments and use cases.
-
-### Collect and view network connectivity report
-
-Network connectivity report is added to Offline Diagnostics to help users investigate network connectivity issues on HoloLens 2 devices. After user triggers Offline Diagnostics, device IP addresses, Wi-Fi information, proxy settings and device’s connectivity to known cloud service endpoints are collected.
-
-The report file NetworkConnectivityReport.txt will be included in the diagnostics ZIP file under Documents folder. Users can also view the report on device through Settings > Update & Security > Troubleshoot > View network connectivity report.
-
-> [!TIP]
-> **Validation Tip:**
-> If you use various network configurations, ensure it works with each configuration.
-
-### Enforce time sync during OOBE
-
-During OOBE, the HoloLens device attempts to sync the device time with the time server after the device has connected to Wi-Fi.
-
-> [!TIP]
-> **Validation Tip:**
-> This will help you if you've flashed the build and then don't touch your device for a long time.
-
-### Update to eye tracking calibration
-
-The option to perform eye tracking calibration is now shown on the device even if it has been deployed via Autopilot. Customers still have the option to disable this behavior via the existing [MixedReality/SkipCalibrationDuringSetup](/windows/client-management/mdm/policy-csp-mixedreality#skipcalibrationduringsetup) policy.
-
-Any user on the device can still choose to run eye calibration at any time to improve their experience.
-
-> [!TIP]
-> **Validation Tip:**
-> Try this on a shared device and ensure that eye tracking calibration occurs.
-
-### Policies to set device standby action
-
-[MixedReality/ConfigureDeviceStandbyAction](/windows/client-management/mdm/policy-csp-mixedreality#configuredevicestandbyaction) and [MixedReality/ConfigureDeviceStandbyActionTimeout](/windows/client-management/mdm/policy-csp-mixedreality#configuredevicestandbyactiontimeout) policies enable configuring HoloLens 2 to execute certain action, when device is in modern standby after certain period of time. See policy documentation for supported actions.
-
-> [!TIP]
-> **Validation Tip:**
-> Modify these settings and ensure their functionality in your usage models and environments.
+|[Fixes and improvements](#fixes-and-improvements)  | Additional fixes and improvements for HoloLens. | All   | 10.0.22621.1458|
 
 ### Fixes and improvements
 
-- Fixed an issue where the user picture displayed does not match the selected user on the sign in screen if [MixedReality/PreferLogonAsOtherUser](/windows/client-management/mdm/policy-csp-mixedreality?branch=main#preferlogonasotheruser) policy is enabled.
+- Fixed an issue with Miracast connectivity.
 
-- Fixed an issue where the user list cannot be dismissed by clicking on the "Add User" or the "Other User" buttons on the sign in screen if [MixedReality/PreferLogonAsOtherUser](/windows/client-management/mdm/policy-csp-mixedreality?branch=main#preferlogonasotheruser) policy is enabled.
-
-- Improved error handling when the device has reached the max number of supported users on device. See [Remove users on a device](https://aka.ms/hlmaxusers) for recommendations if your device is used by more than 63 Microsoft Entra accounts.
-
-- Improved error handling when the wrong user credentials are supplied when using web sign in.
-
-- Fixed an issue in Device Portal that would sometimes prevent the export of the spatial mapping database.
-
-- Modified the timing of when LOB App updates occur.  In the past, LOB App updates forced applications to shut down to complete an update.  Now, if an application is actively being used, the LOB App update will wait to perform the update until the application is not in use.
 
 ## Start receiving Insider builds
 
