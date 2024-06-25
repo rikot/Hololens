@@ -231,6 +231,8 @@ Items:
     href: hololens2-diagnose-network-issues.md
   - name: Restart, reset, or recover HoloLens 2
     href: hololens-recovery.md
+  - name: Using HoloLens 2 with gloves
+    href: hololens-gloves.md
 - name: Resources
   items:
   - name: Where to buy HoloLens 2
