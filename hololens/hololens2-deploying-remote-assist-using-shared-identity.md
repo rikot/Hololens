@@ -53,7 +53,7 @@ Assign required licenses to the Microsoft Entra user accounts.
 
 ### 3. Device Configuration
 
-To share HoloLens 2 devices with multiple people using shared Microsoft Entra user accounts, configure the following to secure user credentials and restrict apps to be used by the HoloLens 2 users. Follow [Set up your HoloLens 2](hololens2-start.md) to set up the HoloLens 2 devices for first time, using the shared Microsoft Entra user accounts created in the previous section "Microsoft Entra accounts." Use one Microsoft Entra user account per HoloLens 2 device. During HoloLens 2 initial setup, skip iris sign in configuration and configure Windows Hello PIN to sign in into the device.
+To share HoloLens 2 devices with multiple people using shared Microsoft Entra user accounts, configure the following to secure user credentials and restrict apps to be used by the HoloLens 2 users. Follow [Set up your HoloLens 2](hololens2-start.md) to set up the HoloLens 2 devices for first time, using the shared Microsoft Entra user accounts created in the previous section "Microsoft Entra accounts." Use one Microsoft Entra user account per HoloLens 2 device. During HoloLens 2 initial setup, skip Iris authentication enrollment and configure Windows Hello PIN to sign in into the device.
 
 #### Sign in PIN
 
@@ -87,10 +87,10 @@ WDAC allows you to configure HoloLens to block the launch of apps. It's differen
 
 Using shared Microsoft Entra account has the following limitations (including but not limited to):
 
-1. Identity – Users can't use iris to sign in on the HoloLens 2 device and are unable to access their work account related content in Microsoft 365.
+1. Identity – Users can't use Iris authentication to sign in on the HoloLens 2 device and are unable to access their work account related content in Microsoft 365.
 1. Caller ID / Contacts – Accessing a user’s personal contacts list / most recently called contacts isn't possible, and caller ID will show the shared account name rather than the user’s name.
 1. User-Based Workflows – It isn't possible to use the advanced integrations with field service, as the user being "assigned" work items, isn't the user signed into Remote Assist.
-1. PIN Sharing – As iris sign-in isn't possible, Windows Hello PIN number must be shared between the users.
+1. PIN Sharing – As Iris authentication isn't possible, Windows Hello PIN number must be shared between the users.
 
 ## Issues
 
