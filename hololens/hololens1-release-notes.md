@@ -4,8 +4,8 @@ description: Learn about updates in each new HoloLens release.
 ms.service: hololens
 ms.sitesec: library
 ms.topic: article
-ms.localizationpriority:
-ms.date: 10/13/2020
+ms.localizationpriority: Low
+ms.date: 06/27/2024
 audience: ITPro
 appliesto:
 - HoloLens 1

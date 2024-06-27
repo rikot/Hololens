@@ -5,12 +5,12 @@ description: How to use Windows Device Recovery Tool to flash an image to HoloLe
 keywords: how-to, reboot, reset, recover, hard reset, soft reset, power cycle, HoloLens, shut down, wdrt, windows device recovery tool
 ms.service: hololens
 ms.sitesec: library
-ms.date: 06/01/2020
+ms.date: 06/27/2024
 ms.custom: 
 - CI 111456
 - CSSTroubleshooting
 ms.topic: article
-ms.localizationpriority:
+ms.localizationpriority: Low
 appliesto:
 - HoloLens (1st gen)
 ---

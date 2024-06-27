@@ -5,8 +5,8 @@ ms.service: hololens
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.topic: article
-ms.localizationpriority:
-ms.date: 9/16/2019
+ms.localizationpriority: Low
+ms.date: 06/27/2024
 ms.reviewer: 
 appliesto:
 - HoloLens (1st gen)

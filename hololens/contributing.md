@@ -2,8 +2,8 @@
 title: Contributing instructions
 description: Learn how to contribute to the HoloLens technical documentation using GitHub-flavored Markdown. 
 
-ms.date: 10/29/2021
-ms.localizationpriority:
+ms.date: 06/27/2024
+ms.localizationpriority: Low
 ms.topic: article
 ms.service: hololens
 ---

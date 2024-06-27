@@ -4,8 +4,8 @@ description: Learn how to prepare, adjust, and set up your HoloLens (1st gen) mi
 ms.service: hololens
 ms.sitesec: library
 ms.topic: article
-ms.localizationpriority:
-ms.date: 8/12/2019
+ms.localizationpriority: Low
+ms.date: 6/27/2024
 ms.reviewer: 
 appliesto:
 - Hololens (1st gen)

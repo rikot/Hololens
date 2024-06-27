@@ -4,8 +4,8 @@ ms.reviewer: asergaz
 description: Mixed Reality support options for small to large enterprise customers
 ms.service: hololens
 ms.topic: article
-ms.date: 3/19/2021
-ms.localizationpriority:
+ms.date: 6/27/2024
+ms.localizationpriority: Low
 ---
 
 # What are the Mixed Reality support and help options?
