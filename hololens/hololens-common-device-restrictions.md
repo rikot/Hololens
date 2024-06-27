@@ -4,8 +4,8 @@ description: Keep up to date with common device restrictions and settings for th
 ms.service: hololens
 ms.sitesec: library
 ms.topic: article
-ms.localizationpriority:
-ms.date: 1/19/2022
+ms.localizationpriority: Low
+ms.date: 06/27/2024
 ms.reviewer: aboeger
 appliesto:
 - HoloLens (1st gen)

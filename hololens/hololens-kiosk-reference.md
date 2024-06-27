@@ -4,8 +4,8 @@ description: Information and samples for kiosks on HoloLens devices.
 ms.service: hololens
 ms.sitesec: library
 ms.topic: article
-ms.localizationpriority:
-ms.date: 7/7/2022
+ms.localizationpriority: Low
+ms.date: 06/27/2024
 ms.reviewer: 
 appliesto:
 - HoloLens (1st gen)

@@ -4,8 +4,8 @@ description: Learn how to set up and use a kiosk configuration to lock down the 
 ms.service: hololens
 ms.sitesec: library
 ms.topic: article
-ms.localizationpriority:
-ms.date: 4/12/2022
+ms.localizationpriority: Low
+ms.date: 06/27/2024
 ms.custom: 
 - CI 115262
 - CI 111456

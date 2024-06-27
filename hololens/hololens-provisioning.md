@@ -7,8 +7,8 @@ ms.topic: article
 ms.custom: 
 - CI 115190
 - CSSTroubleshooting
-ms.localizationpriority:
-ms.date: 9/30/2021
+ms.localizationpriority: Low
+ms.date: 6/27/2024
 ms.reviewer: Teresa-Motiv
 appliesto:
 - HoloLens (1st gen)

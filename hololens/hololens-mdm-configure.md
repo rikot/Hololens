@@ -5,8 +5,8 @@ ms.service: hololens
 ms.sitesec: library
 ms.reviewer: lavinds
 ms.topic: article
-ms.localizationpriority:
-ms.date: 6/28/2022
+ms.localizationpriority: Low
+ms.date: 6/27/2024
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2

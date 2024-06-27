@@ -2,12 +2,12 @@
 title: HoloLens (1st gen) hardware
 description: Learn about the components that make up the Microsoft HoloLens (1st gen), the latest evolution of an untethered holographic Microsoft computer running Windows 10.
 ms.assetid: 527d494e-2ab6-46ca-bd5a-bfc6b43cc833
-ms.date: 09/16/2019
+ms.date: 06/27/2024
 keywords: hololens
 ms.service: hololens
 ms.sitesec: library
 ms.topic: article
-ms.localizationpriority:
+ms.localizationpriority: Low
 appliesto:
 - HoloLens (1st gen)
 ---

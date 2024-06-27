@@ -1,8 +1,8 @@
 ---
 title: HoloLens 2 capabilities and solutions
 description: Learn about the Microsoft HoloLens commercial features for businesses to manage HoloLens devices. 
-ms.date: 12/13/2022
-ms.localizationpriority:
+ms.date: 06/27/2024
+ms.localizationpriority: Low
 ms.custom: 
 - CI 111456
 - CSSTroubleshooting

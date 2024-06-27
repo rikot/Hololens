@@ -5,8 +5,8 @@ ms.service: hololens
 ms.sitesec: library
 ms.assetid: 2a9b3fca-8370-44ec-8b57-fb98b8d317b0
 ms.topic: article
-ms.localizationpriority:
-ms.date: 5/25/2021
+ms.localizationpriority: Low
+ms.date: 06/27/2024
 ms.reviewer: 
 appliesto:
 - HoloLens (1st gen)

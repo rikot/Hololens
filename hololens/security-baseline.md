@@ -7,8 +7,8 @@ reviewer: murugand
 ms.service: hololens
 ms.sitesec: library
 ms.topic: article
-ms.localizationpriority:
-ms.date: 7/26/2022
+ms.localizationpriority: Low
+ms.date: 6/27/2024
 audience: ITPro
 appliesto:
 - HoloLens 2

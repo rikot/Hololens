@@ -6,8 +6,8 @@ ms.sitesec: library
 ms.reviewer: lavinds
 ms.topic: how-to
 audience: ITPro
-ms.date: 12/13/2022
-ms.localizationpriority:
+ms.date: 06/27/2024
+ms.localizationpriority: Low
 ms.collection: essentials-manage
 appliesto:
 - HoloLens 2

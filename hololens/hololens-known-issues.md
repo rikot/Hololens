@@ -2,8 +2,8 @@
 title: Known issues for HoloLens (1st Gen)
 description: Keep up to date with our list of known issues and workarounds that may affect HoloLens customers and developers using Unity and the Windows Device Portal.
 keywords: troubleshoot, known issue, help
-ms.date: 6/15/2021
-ms.localizationpriority:
+ms.date: 6/27/2024
+ms.localizationpriority: Low
 ms.topic: article
 ms.custom: 
 - CI 111456

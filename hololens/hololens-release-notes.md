@@ -4,8 +4,8 @@ description: Stay up to date with all the updates in each new HoloLens 2 release
 ms.service: hololens
 ms.sitesec: library
 ms.topic: article
-ms.localizationpriority:
-ms.date: 1/6/2023
+ms.localizationpriority: Low
+ms.date: 6/27/2024
 ms.custom: 
 - CI 111456
 - CSSTroubleshooting

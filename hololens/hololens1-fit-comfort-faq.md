@@ -4,8 +4,8 @@ description: Stay up to date with answers to frequently asked questions about ho
 ms.service: hololens
 ms.sitesec: library
 ms.topic: article
-ms.localizationpriority:
-ms.date: 10/09/2019
+ms.localizationpriority: Low
+ms.date: 06/27/2024
 ms.reviewer: jarrettr
 audience: ITPro
 appliesto:
