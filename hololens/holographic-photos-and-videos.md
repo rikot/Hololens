@@ -7,8 +7,8 @@ ms.service: hololens
 ms.sitesec: library
 ms.topic: article
 audience: ITPro
-ms.localizationpriority:
-ms.date: 7/26/2022
+ms.localizationpriority: Low
+ms.date: 06/27/2024
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2

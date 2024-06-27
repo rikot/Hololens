@@ -4,8 +4,8 @@ description: Learn how to manually install, manage, and remove certificates on H
 ms.service: hololens
 ms.sitesec: library
 ms.topic: article
-ms.localizationpriority:
-ms.date: 3/22/2022
+ms.localizationpriority: Low
+ms.date: 06/27/2024
 audience: ITPro
 appliesto:
 - HoloLens 2

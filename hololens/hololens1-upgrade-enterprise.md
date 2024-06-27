@@ -4,8 +4,8 @@ description: When you upgrade to Windows Holographic for Business, HoloLens prov
 ms.service: hololens
 ms.sitesec: library
 ms.topic: article
-ms.localizationpriority:
-ms.date: 9/16/2019
+ms.localizationpriority: Low
+ms.date: 6/27/2024
 ms.reviewer: 
 appliesto:
 - HoloLens (1st gen)

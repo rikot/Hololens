@@ -2,8 +2,8 @@
 title: Deploying Remote Assist using a shared identity across multiple users
 description: This article contains high-level steps involved in deploying Remote Assist using shared Microsoft Entra identity across multiple users. The guidance provided in this document focuses on provisioning Microsoft Entra user accounts, assigning required licenses and HoloLens 2 device configuration for a shared device environment. For more detailed scenario-based deployment guidance, refer to [Common Deployment Scenarios](hololens-requirements.md).
 ms.service: hololens
-ms.date: 11/15/2021
-ms.localizationpriority:
+ms.date: 06/27/2024
+ms.localizationpriority: Low
 ms.topic: article
 audience: HoloLens 2
 keywords: HoloLens, shared device, deployment

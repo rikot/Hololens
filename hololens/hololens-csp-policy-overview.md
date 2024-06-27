@@ -4,8 +4,8 @@ description: Learn how to configure CSPs, policy, and device management using Mo
 ms.service: hololens
 ms.sitesec: library
 ms.topic: concept-article
-ms.localizationpriority:
-ms.date: 09/16/2020
+ms.localizationpriority: Low
+ms.date: 06/27/2024
 ms.reviewer: lavinds
 appliesto:
 - HoloLens (1st gen)

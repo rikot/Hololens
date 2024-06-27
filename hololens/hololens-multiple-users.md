@@ -4,8 +4,8 @@ description: You can configure HoloLens to be shared by multiple Microsoft Entra
 ms.service: hololens
 ms.sitesec: library
 ms.topic: article
-ms.localizationpriority:
-ms.date: 1/4/2022
+ms.localizationpriority: Low
+ms.date: 06/27/2024
 ms.reviewer: anisgup
 appliesto:
 - HoloLens 2

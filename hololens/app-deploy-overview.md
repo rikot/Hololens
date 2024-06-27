@@ -2,11 +2,11 @@
 title: Overview - App Management
 description: Get started with an overview of mixed reality app management with mobile device management, Microsoft store for business, provisioning package, and App Installer.
 keywords: HoloLens, user, account, app, application management,
-ms.date: 6/22/2020
+ms.date: 6/27/2024
 ms.service: hololens
 ms.topic: article 
 ms.sitesec: library
-ms.localizationpriority:
+ms.localizationpriority: Low
 audience: ITPro
 appliesto:
 - HoloLens (1st gen)

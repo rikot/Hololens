@@ -3,11 +3,11 @@ title: Deployment Guide – Cloud connected HoloLens 2 deployment at scale with 
 description: Learn how to set up configurations to enroll HoloLens devices over a Cloud Connected network at scale with Remote Assist.
 keywords: HoloLens, management, cloud connected, Remote Assist, AAD, Azure AD, MDM, Mobile Device Management
 ms.reviewer: aboeger
-ms.date: 12/04/2020
+ms.date: 06/27/2024
 ms.service: hololens
 ms.topic: article
 ms.sitesec: library
-ms.localizationpriority:
+ms.localizationpriority: Low
 audience: HoloLens
 appliesto:
 - HoloLens 2

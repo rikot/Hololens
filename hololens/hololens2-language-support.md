@@ -5,12 +5,12 @@ ms.service: hololens
 ms.sitesec: library
 ms.reviewer: wangmax
 ms.topic: article
-ms.localizationpriority:
+ms.localizationpriority: Low
 ms.custom: 
 - CI 115225
 - CSSTroubleshooting
 keywords: localize, language support, display language, keyboard language, IME, keyboard layout
-ms.date: 03/16/2022
+ms.date: 06/27/2024
 audience: ITPro
 appliesto:
 - HoloLens 2

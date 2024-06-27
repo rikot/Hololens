@@ -4,8 +4,8 @@ description: Deployment guide for HoloLens 2 for External Clients (with Remote a
 ms.service: hololens
 ms.sitesec: library
 ms.topic: article
-ms.localizationpriority:
-ms.date: 8/6/2021
+ms.localizationpriority: Low
+ms.date: 6/27/2024
 ms.custom: 
 ms.reviewer: 
 appliesto:

@@ -6,8 +6,8 @@ ms.sitesec: library
 ms.assetid: 88bf50aa-0bac-4142-afa4-20b37c013001
 audience: ITPro
 ms.topic: article
-ms.localizationpriority:
-ms.date: 11/15/2021
+ms.localizationpriority: Low
+ms.date: 06/27/2024
 appliesto:
 - HoloLens 2
 ---
